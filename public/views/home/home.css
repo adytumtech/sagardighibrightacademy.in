@@ -1,0 +1,10 @@
+  /* Smooth fade transition */
+  #carousel-images > div {
+    transition: opacity 1s ease-in-out;
+  }
+
+  .notice-container {
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.01s linear; /* Very smooth transition */
+  }
