@@ -27,11 +27,11 @@
   
     <section id="about-menu" class="overflow-hidden duration-300 ease-in-out w-full flex flex-col bg-blue-900 text-white" style="max-height: 0;">
       <ul class="flex flex-col w-full items-start gap-0 text-base">
-        <li class="p-3 hover:bg-blue-800 hover:text-yellow-400 w-full border-b border-blue-700"><a href="<?php echo URL ?>about/about_school" class="w-full block">About School</a></li>
-                <li class="p-3 hover:bg-blue-800 hover:text-yellow-400 w-full border-b border-blue-700"><a href="<?php echo URL ?>about/founder" class="w-full block">Founder</a></li>
-        <li class="p-3 hover:bg-blue-800 hover:text-yellow-400 w-full border-b border-blue-700"><a href="<?php echo URL ?>about/chairman" class="w-full block">Chairman Message</a></li>
+        <li class="p-3 hover:bg-blue-900 hover:text-yellow-400 w-full border-b border-blue-700"><a href="<?php echo URL ?>about/about_school" class="w-full block">About School</a></li>
+                <li class="p-3 hover:bg-blue-900 hover:text-yellow-400 w-full border-b border-blue-700"><a href="<?php echo URL ?>about/founder" class="w-full block">Founder</a></li>
+        <li class="p-3 hover:bg-blue-900 hover:text-yellow-400 w-full border-b border-blue-700"><a href="<?php echo URL ?>about/chairman" class="w-full block">Chairman Message</a></li>
         
-        <li class="p-3 hover:bg-blue-800 hover:text-yellow-400 w-full border-b border-blue-700"><a href="<?php echo URL ?>about/director" class="w-full block">Director Message</a></li>
+        <li class="p-3 hover:bg-blue-900 hover:text-yellow-400 w-full border-b border-blue-700"><a href="<?php echo URL ?>about/director" class="w-full block">Director Message</a></li>
         
       </ul>
     </section>

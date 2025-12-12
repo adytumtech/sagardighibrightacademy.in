@@ -1,9 +1,11 @@
 <!-- Footer -->
 <footer class="bg-blue-900 text-white text-lg flex flex-col gap-5 pt-8">
-    <div class="flex flex-col md:flex-row items-center ">
-        <div class=" bg-white text-black w-full md:4/12 lg:w-3/12 p-2 shadow-lg mx-auto md:mx-0">
-          <a href="<?php echo URL ?>home" class="flex flex-col md:flex-row items-center  gap-3 md:gap-5"> <img src="<?php echo URL ?>assets/img/logo.png" alt="Logo" class="h-16 w-16 mb-2" />
-            <h2 class="text-2xl font-bold text-blue-800 text-center md:text-left">DON BOSCO MALDA</h2> </a>
+    <div class="flex flex-col md:flex-row items-center justify-between ">
+        <div class=" bg-white text-black w-full md:4/12 lg:w-4/12  shadow-lg mx-auto md:mx-0">
+            <a href="<?php echo URL ?>home" class="flex flex-col md:flex-row items-center  gap-3 md:gap-5"> <img src="<?php echo URL ?>assets/img/logo.png" alt="Logo" class="h-16 w-16 lg:h-20 lg:w-20 " />
+                <h2 class="text-2xl font-bold text-blue-800 text-center md:text-left">SAGARDIGHI BRIGHT ACADEMY
+                </h2>
+            </a>
         </div>
         <div class="flex flex-col items-center min-w-[200px] p-2 lg:p-0">
             <h4 class="font-semibold mb-2 text-lg text-yellow-400">Follow Us</h4>
@@ -34,15 +36,15 @@
         <div class="flex-1 min-w-[200px]">
             <h4 class="font-semibold mb-2 text-lg text-yellow-400">Contact</h4>
             <p class="text-sm md:text-base font-regular">Don Bosco More, Village Surjapur,<br />Malda By-Pass, Near Malda Court Station</p>
-             <div class="flex flex-col  items-start  py-1">
-        <span><i class="fa-solid fa-phone text-yellow-300"></i> +91 8509544564</span>
-        <span><i class="fa-solid fa-envelope text-yellow-300"></i> donbosco.malda@gmail.com</span>
-      </div>
+            <div class="flex flex-col  items-start  py-1">
+                <span><i class="fa-solid fa-phone text-yellow-300"></i> +91 8509544564</span>
+                <span><i class="fa-solid fa-envelope text-yellow-300"></i> donbosco.malda@gmail.com</span>
+            </div>
         </div>
         <div class="flex-1 min-w-[200px]">
             <h4 class="font-semibold mb-2 text-lg text-yellow-400">Quick Links</h4>
             <ul class="text-sm md:text-base font-regular space-y-1">
-                                <li><a href="<?php echo URL ?>about/about_school" class="hover:text-yellow-300 transition">About School</a></li>
+                <li><a href="<?php echo URL ?>about/about_school" class="hover:text-yellow-300 transition">About School</a></li>
                 <li><a href="<?php echo URL ?>admission/procedure" class="hover:text-yellow-300 transition">Admission Process</a></li>
                 <li><a href="<?php echo URL ?>news_events/events" class="hover:text-yellow-300 transition">Events</a></li>
                 <li><a href="<?php echo URL ?>gallery/gallery" class="hover:text-yellow-300 transition">Gallery</a></li>
@@ -52,18 +54,18 @@
         <div class="flex-1 min-w-[200px]">
             <h4 class="font-semibold mb-2 text-lg text-yellow-400">Timing</h4>
             <ul class="text-sm md:text-base font-regular space-y-1">
-            <li>
-                <span class="font-semibold">Play Group to Class II</span><br>
-                Monday – Friday: 8:55 AM to 1:00 PM
-            </li>
-            <li class="mt-2">
-                <span class="font-semibold">Class III – X, XI (A/S/C)</span><br>
-                Monday – Friday: 8:55 AM to 3:05 PM
-            </li>
-            <li class="mt-2">
-                <span class="font-semibold">Classes PG IX to XI</span><br>
-                All Working Saturdays: 8:55 AM to 1:00 PM
-            </li>
+                <li>
+                    <span class="font-semibold">Play Group to Class II</span><br>
+                    Monday – Friday: 8:55 AM to 1:00 PM
+                </li>
+                <li class="mt-2">
+                    <span class="font-semibold">Class III – X, XI (A/S/C)</span><br>
+                    Monday – Friday: 8:55 AM to 3:05 PM
+                </li>
+                <li class="mt-2">
+                    <span class="font-semibold">Classes PG IX to XI</span><br>
+                    All Working Saturdays: 8:55 AM to 1:00 PM
+                </li>
             </ul>
         </div>
         <div class="flex-1 min-w-[250px]">
@@ -74,7 +76,7 @@
     </div>
 
     <div class="bg-[#af4547] text-center py-3 mt-8 text-sm md:text-base">
-        © 2025 DON BOSCO MALDA. All Rights Reserved | Design by <a href="https://www.adytumtech.com/" class="underline"> Adytuminfotech Softwares Pvt. Ltd.</a> 
+        © 2025 DON BOSCO MALDA. All Rights Reserved | Design by <a href="https://www.adytumtech.com/" class="underline"> Adytuminfotech Softwares Pvt. Ltd.</a>
     </div>
 </footer>
 

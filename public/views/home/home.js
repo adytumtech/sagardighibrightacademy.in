@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Update indicators
     indicators.forEach((el, i) => {
-      el.classList.toggle("bg-blue-800", i === current);
+      el.classList.toggle("bg-blue-900", i === current);
       el.classList.toggle("bg-white", i !== current);
     });
   }

@@ -3,7 +3,7 @@
       <!-- Left: Info + Map -->
       <div class="space-y-6 w-full lg:w-1/3 flex flex-col">
         <!-- Contact Info Card -->
-        <div class="bg-blue-800 border-l-4 border-yellow-400 p-6 shadow">
+        <div class="bg-blue-900 border-l-4 border-yellow-400 p-6 shadow">
           <h2 class="text-xl font-semibold text-yellow-400 mb-4"><i class="fa-solid fa-location-dot text-xl text-yellow-400"></i> Don Bosco City Office</h2>
           <ul class="text-white space-y-2 list-disc pl-5 text-sm">
             <li>Don Bosco More, Village. Surjapur,</li>
@@ -47,7 +47,7 @@
             <span class="text-red-600 text-xs hidden" id="messageError">Please enter your message.</span>
           </div>
           <button type="submit"
-            class="w-full bg-blue-800 hover:bg-yellow-400 hover:text-blue-900 text-white py-2 px-4 font-semibold transform hover:scale-105 transition duration-300 ease-in-out">
+            class="w-full bg-blue-900 hover:bg-yellow-400 hover:text-blue-900 text-white py-2 px-4 font-semibold transform hover:scale-105 transition duration-300 ease-in-out">
             Send Message
           </button>
         </form>
