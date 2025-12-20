@@ -79,6 +79,7 @@
         © 2025 DON BOSCO MALDA. All Rights Reserved | Design by <a href="https://www.adytumtech.com/" class="underline"> Adytuminfotech Softwares Pvt. Ltd.</a>
     </div>
 </footer>
+  <script src="<?php echo URL ?>assets/js/main.js"></script>
 
 </body>
 

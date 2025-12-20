@@ -1,9 +1,22 @@
 RewriteEngine On
 
+# ==============================
+# Allow robots.txt & sitemap.xml
+# ==============================
+RewriteRule ^robots\.txt$ - [L]
+RewriteRule ^sitemap\.xml$ - [L]
+RewriteRule ^favicon\.ico$ - [L]
+
+# ==============================
+# MVC Front Controller
+# ==============================
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-l
 
 RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
 
+# ==============================
+# Security
+# ==============================
 Options -Indexes

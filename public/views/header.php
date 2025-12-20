@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_URI'] == $_SERVER['PHP_SELF']) header("Location: noPage");
-if (!isset($this->pageTitle)) $this->pageTitle = 'Don Bosco Malda | Malda, West Bengal, India';
+if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Malda, West Bengal, India';
 ?>
 <!doctype html>
 <html>
@@ -8,8 +8,34 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Don Bosco Malda | Malda, West 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <!-- SEO Meta -->
+  <meta name="description" content="<?php echo $this->metaDescription ?? 'SagarDighi Bright Academy is a reputed school in Sagardighi, Murshidabad, West Bengal, focused on quality education and holistic student development.'; ?>">
+  <meta name="keywords" content="<?php echo $this->metaKeywords ?? 'SagarDighi Bright Academy, School in Sagardighi, Best School in Murshidabad, Bright Academy Sagardighi'; ?>">
 
+  <!-- Canonical (query string removed) -->
+  <?php
+  $canonical = ($_SERVER['REQUEST_URI'] === '/' || $_SERVER['REQUEST_URI'] === '/home')
+    ? 'https://www.sagardighibrightacademy.com/'
+    : 'https://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER['REQUEST_URI'], '?');
+  ?>
+  <link rel="canonical" href="<?= $canonical ?>">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="<?php echo $this->pageTitle ?? 'SagarDighi Bright Academy'; ?>">
+  <meta property="og:description" content="<?php echo $this->metaDescription ?? 'SagarDighi Bright Academy is a leading school in Sagardighi, Murshidabad, West Bengal.'; ?>">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER['REQUEST_URI'], '?'); ?>">
+  <meta property="og:image" content="<?php echo URL ?>assets/img/hero-images/img-1.jpg">
+
+  <!-- Robots -->
+  <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="bingbot" content="index, follow">
+    <!-- Performance: Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
   <!-- fav icon -->
@@ -18,10 +44,38 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Don Bosco Malda | Malda, West 
   <link rel="icon" type="image/png" sizes="16x16" href="<?php echo URL ?>assets/favicon/favicon-16x16.png">
   <link rel="manifest" href="<?php echo URL ?>assets/favicon/site.webmanifest">
 
+
   <link href="<?php echo URL ?>assets/css/custom.css" rel="stylesheet">
   <title><?php if (isset($this->pageTitle)) echo $this->pageTitle; ?></title>
-  <script src="<?php echo URL ?>assets/js/main.js"></script>
 
+
+  <!-- Schema.org markup for Google -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "School",
+    "name": "SagarDighi Bright Academy",
+    "alternateName": "Bright Academy Sagardighi",
+    "url": "https://www.sagardighibrightacademy.com",
+    "logo": "https://www.sagardighibrightacademy.com/assets/img/logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Sagardighi",
+      "addressRegion": "West Bengal",
+      "addressCountry": "IN"
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "Admissions",
+      "email": "info@sagardighibrightacademy.com"
+    },
+    "sameAs": [
+      "https://www.facebook.com/sagardighibrightacademy",
+      "https://www.instagram.com/sagardighibrightacademy",
+      "https://www.youtube.com/@sagardighibrightacademy"
+    ]
+  }
+  </script>
   <?php
   if (isset($this->css)) {
     foreach ($this->css as $css) {
@@ -172,4 +226,85 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Don Bosco Malda | Malda, West 
         </ul>
       </nav>
     </div>
+
+
+
+    
   </header>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+  const menuBtn = document.getElementById("menu-btn");
+  const menu = document.getElementById("mobile-menu");
+  let isMenuOpen = false;
+
+  menuBtn.addEventListener("click", () => {
+    isMenuOpen = !isMenuOpen;
+    menuBtn.setAttribute("aria-expanded", isMenuOpen);
+
+    if (isMenuOpen) {
+      menu.classList.remove("opacity-0", "invisible");
+      menu.classList.add("opacity-100", "visible");
+    } else {
+      menu.classList.remove("opacity-100", "visible");
+      menu.classList.add("opacity-0", "invisible");
+    }
+  });
+
+  // Close menu when clicking outside (optional)
+  document.addEventListener("click", (e) => {
+    if (!menu.contains(e.target) && !menuBtn.contains(e.target) && isMenuOpen) {
+      isMenuOpen = false;
+      menuBtn.setAttribute("aria-expanded", "false");
+      menu.classList.remove("opacity-100", "visible");
+      menu.classList.add("opacity-0", "invisible");
+    }
+  });
+
+const buttons = document.querySelectorAll(".submenu-btn");
+
+buttons.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const menu = btn.nextElementSibling; // the UL
+    menu.classList.toggle("hidden");
+  });
+});
+
+});
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const openBtn = document.getElementById("enquiryModalButton");
+  const closeBtn = document.getElementById("closeModalButton");
+  const modal = document.getElementById("enquiryModalGlobal");
+
+  if (openBtn && modal) {
+    openBtn.addEventListener("click", () => {
+      modal.classList.remove("hidden");
+    });
+  }
+
+  if (closeBtn && modal) {
+    closeBtn.addEventListener("click", (e) => {
+      e.stopPropagation(); // prevent bubbling to modal
+      modal.classList.add("hidden");
+    });
+  }
+
+  // Close modal when clicking outside the modal content
+  if (modal) {
+    modal.addEventListener("click", () => {
+      modal.classList.add("hidden");
+    });
+
+    // Prevent closing when clicking inside modal content
+    const modalContent = modal.querySelector("div"); // first inner div
+    if (modalContent) {
+      modalContent.addEventListener("click", (e) => {
+        e.stopPropagation();
+      });
+    }
+  }
+});
+
+  </script>

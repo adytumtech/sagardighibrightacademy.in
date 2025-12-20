@@ -7,7 +7,8 @@ class career extends Controller {
 	}
 	
 	public function index() {
-		$this->view->pageTitle = "Career | Don Bosco Malda";
+		$this->view->pageTitle = "Career |SAGARDIGHI BRIGHT ACADEMY
+";
 		$this->view->css = array("views/career/career.css");
 		$this->view->js = array("views/career/career.js");
 		$this->view->render("career", "career");

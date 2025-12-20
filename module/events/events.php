@@ -7,7 +7,7 @@ class events extends Controller {
 	}
 	
 	public function index() {
-		$this->view->pageTitle = "Events | Don Bosco Malda";
+		$this->view->pageTitle = "Events | SAGARDIGHI BRIGHT ACADEMY";
 		$this->view->render("events", "events");
 	}
 }

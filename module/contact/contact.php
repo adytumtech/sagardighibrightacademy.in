@@ -7,7 +7,7 @@ class contact extends Controller {
 	}
 	
 	public function index() {
-		$this->view->pageTitle = "Contact | Don Bosco Malda";
+		$this->view->pageTitle = "Contact |SAGARDIGHI BRIGHT ACADEMY";
 		$this->view->js = array("views/contact/contact.js");
 		$this->view->render("contact", "contact");
 	}

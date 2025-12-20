@@ -8,7 +8,7 @@ class gallery extends Controller
         parent::__construct();
     }
     public function index() {
-        $this->view->pageTitle = "Gallery | Don Bosco Malda";
+        $this->view->pageTitle = "Gallery | SAGARDIGHI BRIGHT ACADEMY";
 		$this->view->css = array("views/gallery/gallery.css");
 		$this->view->js = array("views/gallery/gallery.js");
 		$this->view->render("gallery", "gallery");
