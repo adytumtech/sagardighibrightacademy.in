@@ -8,3 +8,15 @@
     flex-direction: column;
     transition: transform 0.01s linear; /* Very smooth transition */
   }
+
+  /* Banner Modal Styles */
+  #bannerModal {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  #bannerModal:not(.hidden) {
+    opacity: 1;
+    visibility: visible;
+  }

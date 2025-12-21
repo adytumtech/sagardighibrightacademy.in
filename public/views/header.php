@@ -8,7 +8,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <!-- SEO Meta -->
+  <!-- SEO Meta -->
   <meta name="description" content="<?php echo $this->metaDescription ?? 'SagarDighi Bright Academy is a reputed school in Sagardighi, Murshidabad, West Bengal, focused on quality education and holistic student development.'; ?>">
   <meta name="keywords" content="<?php echo $this->metaKeywords ?? 'SagarDighi Bright Academy, School in Sagardighi, Best School in Murshidabad, Bright Academy Sagardighi'; ?>">
 
@@ -31,7 +31,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
   <meta name="robots" content="index, follow">
   <meta name="googlebot" content="index, follow">
   <meta name="bingbot" content="index, follow">
-    <!-- Performance: Fonts -->
+  <!-- Performance: Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -51,30 +51,30 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
 
   <!-- Schema.org markup for Google -->
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "School",
-    "name": "SagarDighi Bright Academy",
-    "alternateName": "Bright Academy Sagardighi",
-    "url": "https://www.sagardighibrightacademy.com",
-    "logo": "https://www.sagardighibrightacademy.com/assets/img/logo.png",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Sagardighi",
-      "addressRegion": "West Bengal",
-      "addressCountry": "IN"
-    },
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "contactType": "Admissions",
-      "email": "info@sagardighibrightacademy.com"
-    },
-    "sameAs": [
-      "https://www.facebook.com/sagardighibrightacademy",
-      "https://www.instagram.com/sagardighibrightacademy",
-      "https://www.youtube.com/@sagardighibrightacademy"
-    ]
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "School",
+      "name": "SagarDighi Bright Academy",
+      "alternateName": "Bright Academy Sagardighi",
+      "url": "https://www.sagardighibrightacademy.com",
+      "logo": "https://www.sagardighibrightacademy.com/assets/img/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Sagardighi",
+        "addressRegion": "West Bengal",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Admissions",
+        "email": "info@sagardighibrightacademy.com"
+      },
+      "sameAs": [
+        "https://www.facebook.com/sagardighibrightacademy",
+        "https://www.instagram.com/sagardighibrightacademy",
+        "https://www.youtube.com/@sagardighibrightacademy"
+      ]
+    }
   </script>
   <?php
   if (isset($this->css)) {
@@ -106,7 +106,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
           <i class="fa-solid fa-phone text-sm"></i>
           <span>999999999</span>
         </div>
-      <span>|</span>  
+        <span>|</span>
         <div class="flex items-center gap-1.5 rounded-full">
           <i class="fa-solid fa-envelope text-sm"></i>
           <span class="hidden sm:inline">sagardighi@gmail.com</span>
@@ -175,6 +175,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
           class="absolute lg:static left-0 top-full w-full lg:w-auto lg:flex lg:items-center lg:gap-5 bg-white lg:bg-transparent flex-col lg:flex-row px-4 lg:px-0 py-4 lg:py-0 shadow-lg lg:shadow-none z-50 transition-all duration-300 ease-in-out opacity-0 invisible lg:opacity-100 lg:visible">
 
           <!-- About Dropdown -->
+          <li class="w-full lg:w-auto"><a href="<?php echo URL ?>home" class="block py-2 lg:py-0 px-2 font-medium text-gray-800 hover:text-blue-700 transition-colors">Home</a></li>
 
           <!-- About Us -->
           <li class="text-gray-800 hover:text-blue-700 cursor-pointer group relative lg:h-full lg:flex w-full lg:w-auto px-2 py-1">
@@ -229,82 +230,81 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
 
 
 
-    
+
   </header>
 
   <script>
-    document.addEventListener("DOMContentLoaded", function () {
-  const menuBtn = document.getElementById("menu-btn");
-  const menu = document.getElementById("mobile-menu");
-  let isMenuOpen = false;
+    document.addEventListener("DOMContentLoaded", function() {
+      const menuBtn = document.getElementById("menu-btn");
+      const menu = document.getElementById("mobile-menu");
+      let isMenuOpen = false;
 
-  menuBtn.addEventListener("click", () => {
-    isMenuOpen = !isMenuOpen;
-    menuBtn.setAttribute("aria-expanded", isMenuOpen);
+      menuBtn.addEventListener("click", () => {
+        isMenuOpen = !isMenuOpen;
+        menuBtn.setAttribute("aria-expanded", isMenuOpen);
 
-    if (isMenuOpen) {
-      menu.classList.remove("opacity-0", "invisible");
-      menu.classList.add("opacity-100", "visible");
-    } else {
-      menu.classList.remove("opacity-100", "visible");
-      menu.classList.add("opacity-0", "invisible");
-    }
-  });
-
-  // Close menu when clicking outside (optional)
-  document.addEventListener("click", (e) => {
-    if (!menu.contains(e.target) && !menuBtn.contains(e.target) && isMenuOpen) {
-      isMenuOpen = false;
-      menuBtn.setAttribute("aria-expanded", "false");
-      menu.classList.remove("opacity-100", "visible");
-      menu.classList.add("opacity-0", "invisible");
-    }
-  });
-
-const buttons = document.querySelectorAll(".submenu-btn");
-
-buttons.forEach((btn) => {
-  btn.addEventListener("click", () => {
-    const menu = btn.nextElementSibling; // the UL
-    menu.classList.toggle("hidden");
-  });
-});
-
-});
-
-
-document.addEventListener("DOMContentLoaded", () => {
-  const openBtn = document.getElementById("enquiryModalButton");
-  const closeBtn = document.getElementById("closeModalButton");
-  const modal = document.getElementById("enquiryModalGlobal");
-
-  if (openBtn && modal) {
-    openBtn.addEventListener("click", () => {
-      modal.classList.remove("hidden");
-    });
-  }
-
-  if (closeBtn && modal) {
-    closeBtn.addEventListener("click", (e) => {
-      e.stopPropagation(); // prevent bubbling to modal
-      modal.classList.add("hidden");
-    });
-  }
-
-  // Close modal when clicking outside the modal content
-  if (modal) {
-    modal.addEventListener("click", () => {
-      modal.classList.add("hidden");
-    });
-
-    // Prevent closing when clicking inside modal content
-    const modalContent = modal.querySelector("div"); // first inner div
-    if (modalContent) {
-      modalContent.addEventListener("click", (e) => {
-        e.stopPropagation();
+        if (isMenuOpen) {
+          menu.classList.remove("opacity-0", "invisible");
+          menu.classList.add("opacity-100", "visible");
+        } else {
+          menu.classList.remove("opacity-100", "visible");
+          menu.classList.add("opacity-0", "invisible");
+        }
       });
-    }
-  }
-});
 
+      // Close menu when clicking outside (optional)
+      document.addEventListener("click", (e) => {
+        if (!menu.contains(e.target) && !menuBtn.contains(e.target) && isMenuOpen) {
+          isMenuOpen = false;
+          menuBtn.setAttribute("aria-expanded", "false");
+          menu.classList.remove("opacity-100", "visible");
+          menu.classList.add("opacity-0", "invisible");
+        }
+      });
+
+      const buttons = document.querySelectorAll(".submenu-btn");
+
+      buttons.forEach((btn) => {
+        btn.addEventListener("click", () => {
+          const menu = btn.nextElementSibling; // the UL
+          menu.classList.toggle("hidden");
+        });
+      });
+
+    });
+
+
+    document.addEventListener("DOMContentLoaded", () => {
+      const openBtn = document.getElementById("enquiryModalButton");
+      const closeBtn = document.getElementById("closeModalButton");
+      const modal = document.getElementById("enquiryModalGlobal");
+
+      if (openBtn && modal) {
+        openBtn.addEventListener("click", () => {
+          modal.classList.remove("hidden");
+        });
+      }
+
+      if (closeBtn && modal) {
+        closeBtn.addEventListener("click", (e) => {
+          e.stopPropagation(); // prevent bubbling to modal
+          modal.classList.add("hidden");
+        });
+      }
+
+      // Close modal when clicking outside the modal content
+      if (modal) {
+        modal.addEventListener("click", () => {
+          modal.classList.add("hidden");
+        });
+
+        // Prevent closing when clicking inside modal content
+        const modalContent = modal.querySelector("div"); // first inner div
+        if (modalContent) {
+          modalContent.addEventListener("click", (e) => {
+            e.stopPropagation();
+          });
+        }
+      }
+    });
   </script>

@@ -1,22 +1,28 @@
-User-agent: * 
+User-agent: *
 Allow: /
+
 Disallow: /admin/
 Disallow: /config/
-Disallow : /core/
+Disallow: /core/
 
-Allow : /public/assets/
-Allow : /public/css/
-Allow : /public/js/
-Allow : /public/images/
+Allow: /public/assets/
+Allow: /public/css/
+Allow: /public/js/
+Allow: /public/images/
 
-#AI & ChatBot 
-
-User-agent : GPTBot
-Allow: / 
-User-agent : PerplexityBot
+# AI & Chatbot
+User-agent: GPTBot
 Allow: /
-User-agent : Google-Extended
-Allow: / 
 
-#sitemap 
-sitemap : https://www.sagardighiacademy.com/sitemap.xml
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# Sitemap
+Sitemap: https://www.donboscomalda.com/sitemap.xml
+

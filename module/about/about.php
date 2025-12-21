@@ -10,47 +10,43 @@ class about extends Controller
 
     public function about_school()
     {
-        $this->view->pageTitle = "About School |SAGARDIGHI BRIGHT ACADEMY
-";
+        $this->view->pageTitle = "About School | Sagardighi Bright Academy";
         $this->view->css = array("views/about/about_school.css");
         $this->view->js = array("views/about/about_school.js");
         $this->view->render('about', 'about_school');
     }
     public function st_donbosc_visionary()
     {
-$this->view->pageTitle = "St. Don Bosco: Visionary Educator | SAGARDIGHI BRIGHT ACADEMY";     
-   $this->view->css = array("views/about/st_donbosca_visionary.css");
+        $this->view->pageTitle = "St. Don Bosco: Visionary Educator | Sagardighi Bright Academy";
+        $this->view->css = array("views/about/st_donbosca_visionary.css");
         $this->view->js = array("views/about/st_donbosc_visionary.js");
         $this->view->render('about', 'st_donbosc_visionary');
     }
     public function founder()
     {
-        $this->view->pageTitle = "About Founder |SAGARDIGHI BRIGHT ACADEMY
-";
+        $this->view->pageTitle = "About Founder | Sagardighi Bright Academy";
         $this->view->css = array("views/about/founder.css");
         $this->view->js = array("views/about/founder.js");
         $this->view->render('about', 'founder');
-    } 
-    
+    }
+
     public function chairman()
     {
-        $this->view->pageTitle = "About Chairman |SAGARDIGHI BRIGHT ACADEMY
-";
+        $this->view->pageTitle = "About Chairman | Sagardighi Bright Academy";
         $this->view->css = array("views/about/chairman.css");
         $this->view->js = array("views/about/chairman.js");
         $this->view->render('about', 'chairman');
-    } public function director()
+    }
+    public function director()
     {
-        $this->view->pageTitle = "About Director |SAGARDIGHI BRIGHT ACADEMY
-";
+        $this->view->pageTitle = "About Director | Sagardighi Bright Academy";
         $this->view->css = array("views/about/director.css");
         $this->view->js = array("views/about/director.js");
         $this->view->render('about', 'director');
     }
     public function principal()
     {
-        $this->view->pageTitle = "About Principal |SAGARDIGHI BRIGHT ACADEMY
-";
+        $this->view->pageTitle = "About Principal | Sagardighi Bright Academy";
         $this->view->css = array("views/about/principal.css");
         $this->view->js = array("views/about/principal.js");
         $this->view->render('about', 'principal');

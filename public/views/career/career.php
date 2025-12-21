@@ -27,7 +27,7 @@
         <td class="text-center py-4 px-3 font-medium w-10">1</td>
         <td class="py-4 px-3">Teaching Position – Check eligibility criteria and view full details.</td>
         <td class="text-center py-4 px-3">
-          <a class="bg-blue-700 hover:bg-blue-900 text-white font-semibold py-2 px-4 rounded transition text-sm md:text-base" 
+          <a class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded transition text-sm md:text-base" 
              target="_blank" href="#">
             VIEW / DOWNLOAD
           </a>
@@ -37,7 +37,7 @@
         <td class="text-center py-4 px-3 font-medium">2</td>
         <td class="py-4 px-3">Staff Recruitment – Check eligibility criteria and view full details.</td>
         <td class="text-center py-4 px-3">
-          <a class="bg-blue-700 hover:bg-blue-900 text-white font-semibold py-2 px-4 rounded transition text-sm md:text-base" 
+          <a class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded transition text-sm md:text-base" 
              target="_blank" href="#">
             VIEW / DOWNLOAD
           </a>
@@ -113,7 +113,7 @@
 
                 <!-- Submit Button -->
                 <button type="submit"
-                    class="w-full bg-blue-900 hover:bg-yellow-400 hover:text-blue-900 text-white py-2 px-4 font-semibold transition duration-200">
+                    class="w-full bg-blue-800 hover:bg-yellow-400 hover:text-blue-900 text-white py-2 px-4 font-semibold transition duration-200">
                     Submit Application
                 </button>
             </form>
