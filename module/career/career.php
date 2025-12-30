@@ -14,4 +14,20 @@ class career extends Controller
 		$this->view->js = array("views/career/career.js");
 		$this->view->render("career", "career");
 	}
+	
+
+	 public function getNotice()
+    {
+        header('Content-Type: application/json');
+
+        if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
+            echo json_encode([
+                'success' => false,
+                'message' => 'Invalid request'
+            ]);
+            return;
+        }
+
+        echo json_encode($this->model->getAllNotice());
+    }
 }

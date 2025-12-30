@@ -22,28 +22,33 @@
     <!-- Right: Contact Form -->
     <div class="bg-white shadow-lg p-8 w-full lg:w-2/3">
       <h2 class="text-2xl font-bold text-blue-800 mb-6">Get in Touch</h2>
-      <form id="contactForm" action="#" method="POST" class="space-y-5" novalidate>
+      <form id="contactForm" 
+      method="POST"
+      
+      data-ajax-url = "<?php echo URL?>contact/submitContact"
+      
+      class="space-y-5" novalidate>
         <div>
           <label class="block mb-1 font-medium text-blue-900">Your Name</label>
-          <input type="text" name="name" required placeholder="Enter your full name"
+          <input type="text" name="guardian_name" required placeholder="Enter your full name"
             class="w-full px-4 py-2 border-b-2 border-blue-800 bg-gray-50 focus:outline-none focus:border-yellow-400" />
           <span class="text-red-600 text-xs hidden" id="nameError">Please enter your name.</span>
         </div>
-        <div>
+        <!-- <div>
           <label class="block mb-1 font-medium text-blue-900">Your Email</label>
           <input type="email" name="email" required placeholder="Enter a valid email"
             class="w-full px-4 py-2 border-b-2 border-blue-800 bg-gray-50 focus:outline-none focus:border-yellow-400" />
           <span class="text-red-600 text-xs hidden" id="emailError">Please enter a valid email address.</span>
-        </div>
+        </div> -->
         <div>
           <label class="block mb-1 font-medium text-blue-900">Phone</label>
-          <input type="tel" name="phone" pattern="[0-9]{10}" required placeholder="10-digit phone number"
+          <input type="tel" name="phone_number" pattern="[0-9]{10}" required placeholder="10-digit phone number"
             class="w-full px-4 py-2 border-b-2 border-blue-800 bg-gray-50 focus:outline-none focus:border-yellow-400" />
           <span class="text-red-600 text-xs hidden" id="phoneError">Please enter a valid 10-digit phone number.</span>
         </div>
         <div>
           <label class="block mb-1 font-medium text-blue-900">Message</label>
-          <textarea name="message" rows="4" required placeholder="Write your message here"
+          <textarea name="enquiry_details" rows="4" required placeholder="Write your message here"
             class="w-full px-4 py-2 border-b-2 border-blue-800 bg-gray-50 focus:outline-none focus:border-yellow-400"></textarea>
           <span class="text-red-600 text-xs hidden" id="messageError">Please enter your message.</span>
         </div>
@@ -55,4 +60,104 @@
 
     </div>
   </div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("contactForm");
+  if (!form) return;
+
+  form.addEventListener("submit", async function (e) {
+    e.preventDefault();
+
+    let valid = true;
+
+    // Name validation
+    const name = form.guardian_name.value.trim();
+    const nameError = document.getElementById("nameError");
+
+    if (!name) {
+      nameError.classList.remove("hidden");
+      valid = false;
+    } else {
+      nameError.classList.add("hidden");
+    }
+
+    // Phone validation
+    const phone = form.phone_number.value.trim();
+    const phoneError = document.getElementById("phoneError");
+
+    if (!/^\d{10}$/.test(phone)) {
+      phoneError.classList.remove("hidden");
+      valid = false;
+    } else {
+      phoneError.classList.add("hidden");
+    }
+
+    // Stop if validation fails
+    if (!valid) return;
+
+    // Button state
+    const btn = form.querySelector("button[type='submit']");
+    const oldText = btn.textContent;
+    btn.disabled = true;
+    btn.textContent = "Submitting...";
+
+    try {
+      const response = await fetch("<?php echo URL; ?>contact/submitContact", {
+        method: "POST",
+        body: new FormData(form)
+      });
+
+      // Safety check
+      if (!response.ok) {
+        throw new Error("Network response was not OK");
+      }
+
+      const data = await response.json();
+
+      btn.disabled = false;
+      btn.textContent = oldText;
+
+      if (data.success) {
+        // Success UI
+        form.classList.add("hidden");
+
+        const successBox = document.createElement("div");
+        successBox.className =
+          "contact-success-message mt-6 p-6 bg-green-50 border border-green-200 rounded text-center";
+
+        successBox.innerHTML = `
+          <h3 class="text-lg font-semibold text-green-700 mb-2">Thank you!</h3>
+          <p class="text-green-600 mb-4">
+            ${data.message || "Message sent successfully"}
+          </p>
+          <button class="ok-btn bg-green-600 text-white px-4 py-2 rounded">
+            OK
+          </button>
+        `;
+
+        form.parentNode.insertBefore(successBox, form);
+
+        successBox.querySelector(".ok-btn").onclick = () => {
+          successBox.remove();
+          form.reset();
+          form.classList.remove("hidden");
+        };
+
+      } else {
+        alert(data.message || "Submission failed");
+      }
+
+    } catch (error) {
+      console.error("Contact form error:", error);
+      btn.disabled = false;
+      btn.textContent = oldText;
+      alert("Server error. Please try again.");
+    }
+  });
+});
+</script>
+
+
+
 </section>

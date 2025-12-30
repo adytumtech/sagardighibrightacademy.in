@@ -35,10 +35,12 @@
     <div class="flex flex-col md:flex-row flex-wrap px-4 md:px-12 justify-between gap-8">
         <div class="flex-1 min-w-[200px]">
             <h4 class="font-semibold mb-2 text-lg text-yellow-400">Contact</h4>
-            <p class="text-sm md:text-base font-regular">Don Bosco More, Village Surjapur,<br />Malda By-Pass, Near Malda Court Station</p>
+            <p class="text-sm md:text-base font-regular">VILL: SANTOSHPUR SAGARDIGHI <br>
+DIST: Murshidabad<br />
+PIN: 742226</p>
             <div class="flex flex-col  items-start  py-1">
-                <span><i class="fa-solid fa-phone text-yellow-300"></i> +91 8509544564</span>
-                <span><i class="fa-solid fa-envelope text-yellow-300"></i> donbosco.malda@gmail.com</span>
+                <span><i class="fa-solid fa-phone text-yellow-300"></i> +91 9733656523</span>
+                <span><i class="fa-solid fa-envelope text-yellow-300"></i>sagardighibrightacademy2007@gmail.com</span>
             </div>
         </div>
         <div class="flex-1 min-w-[200px]">
