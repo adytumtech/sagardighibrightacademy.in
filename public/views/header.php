@@ -104,12 +104,13 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
       <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6">
         <div class="flex items-center gap-1 ">
           <i class="fa-solid fa-phone text-sm"></i>
-          <span>999999999</span>
+          <span> 9733656523
+</span>
         </div>
         <span>|</span>
         <div class="flex items-center gap-1.5 rounded-full">
           <i class="fa-solid fa-envelope text-sm"></i>
-          <span class="hidden sm:inline">sagardighi@gmail.com</span>
+          <span class="hidden sm:inline">sagardighibrightacademy2007@gmail.com</span>
           <span class="sm:hidden">Email</span>
         </div>
       </div>
@@ -126,7 +127,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
             <i class="fa-brands fa-instagram"></i>
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="#" aria-label="Twitter" class="hover:text-blue-200 transition-colors">
             <i class="fa-brands fa-twitter"></i>
           </a>
@@ -135,7 +136,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
           <a href="#" aria-label="LinkedIn" class="hover:text-blue-200 transition-colors">
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
-        </li>
+        </li> -->
       </ul>
     </div>
 

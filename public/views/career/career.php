@@ -1,5 +1,5 @@
 <!-- Hero Section -->
-<section class="hero-section h-[470px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero-2.jpg)">
+<section class="hero-section h-[470px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero_img.jpg)">
     <div class="container mx-auto px-4">
         <div class="flex flex-col items-center justify-center text-white text-center">
             <h1 class="text-4xl md:text-5xl font-bold mb-2 bg-red-700 px-5 py-2">Career</h1>
@@ -11,66 +11,11 @@
 
 
 
-
-<div class="w-full h-[70vh] md:h-full md:w-1/3 bg-blue-200 p-4 shadow">
-    <h3 class="text-base md:text-lg lg:text-xl bg-red-600 font-semibold mb-2 text-white text-center"> Notice Board</h3>
-        <div class="overflow-hidden h-[60vh] w-full relative" id="noticeScrollArea">
-          <ul id="noticeList" class="text-sm md:text-base flex flex-col gap-2 md:gap-3 notice-container">
-          </ul>
-       </div>
-</div>
-<script>
-async function loadNotice() {
-  try {
-    const res = await fetch("career/getNotice",{ method: "GET" });
-
-    if (!res.ok) {
-      console.error("HTTP Error:", res.status);
-      return;
-    }
-
-    const result = await res.json();
-
-    if (!result.success) {
-      console.error("API Error");
-      return;
-    }
-
-    const noticeList = document.getElementById("noticeList");
-    noticeList.innerHTML = "";
-
-    result.data.forEach(notice => {
-      const li = document.createElement("li");
-      li.className = "bg-white p-2 rounded shadow";
-
-      li.innerHTML = `
-       <p>${notice.notice_id}</p>
-        <p class="font-medium">${notice.notice_title}</p>
-        <span class="text-xs text-gray-500">
-          ${notice.formatted_publish_date}
-        </span>
-       
-      `;
-
-      noticeList.appendChild(li);
-    });
-
-  } catch (error) {
-    console.error("Failed to load notices", error);
-  }
-}
-
-loadNotice();
-</script>
-
-
-
-
 <!-- Career Form & Notice -->
 <section class="w-full px-4 py-12 bg-gray-50">
     <div class="max-w-4xl mx-auto flex flex-col ">
         <!-- Left Side: Notice -->
-<div class="overflow-x-auto mb-10">
+<!-- <div class="overflow-x-auto mb-10">
   <table class="min-w-full bg-[#F4D300] text-sm md:text-base shadow-lg border-2 border-[#F4D300]">
     <thead>
       <tr>
@@ -100,7 +45,7 @@ loadNotice();
       </tr>
     </tbody>
   </table>
-</div>
+</div> -->
 
 
        

@@ -8,60 +8,10 @@ class academic extends Controller
         parent::__construct();
     }
 
-    public function curriculum()
+    public function academic()
     {
-        $this->view->pageTitle = "Academic Curriculum | Sagardighi Bright Academy";
-        $this->view->css = array("views/curriculum/academic.css");
-        $this->view->js = array("views/curriculum/academic.js");
-        $this->view->render('academic', 'curriculum');
+        $this->view->pageTitle = "Academic | Sagardighi Bright Academy";
+        $this->view->render('academic', 'academic');
     }
-    public function visiting_hours()
-    {
-        $this->view->pageTitle = "Academic Visiting Hours | Sagardighi Bright Academy";
-        $this->view->css = array("views/academic/academic.css");
-        $this->view->js = array("views/academic/academic.js");
-        $this->view->render('academic', 'visiting_hours');
-    }
-    public function activities()
-    {
-        $this->view->pageTitle = "Activities | Sagardighi Bright Academy";
-        $this->view->css = array("views/academic/academic.css");
-        $this->view->js = array("views/academic/academic.js");
-        $this->view->render('academic', 'activities');
-    }
-    public function early_years()
-    {
-        $this->view->pageTitle = "Early Years | Sagardighi Bright Academy";
-        $this->view->css = array("views/academic/academic.css");
-        $this->view->js = array("views/academic/academic.js");
-        $this->view->render('academic', 'early_years');
-    }
-    public function primary_school()
-    {
-        $this->view->pageTitle = "Primary School | Sagardighi Bright Academy";
-        $this->view->css = array("views/academic/academic.css");
-        $this->view->js = array("views/academic/academic.js");
-        $this->view->render('academic', 'primary_school');
-    }
-    public function middle_school()
-    {
-        $this->view->pageTitle = "Middle School | Sagardighi Bright Academy";
-        $this->view->css = array("views/academic/academic.css");
-        $this->view->js = array("views/academic/academic.js");
-        $this->view->render('academic', 'middle_school');
-    }
-    public function high_school()
-    {
-        $this->view->pageTitle = " High School | Sagardighi Bright Academy";
-        $this->view->css = array("views/academic/academic.css");
-        $this->view->js = array("views/academic/academic.js");
-        $this->view->render('academic', 'high_school');
-    }
-    public function remedial_class()
-    {
-        $this->view->pageTitle = " Remedial School | Sagardighi Bright Academy";
-        $this->view->css = array("views/academic/academic.css");
-        $this->view->js = array("views/academic/academic.js");
-        $this->view->render('academic', 'remedial_class');
-    }
+   
 }

@@ -1,7 +1,7 @@
 
 
 <!-- Hero Section -->
-<section class="relative hero-section h-[470px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero-2.jpg)">
+<section class="relative hero-section h-[470px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero_imgs.jpg)">
 <div class="relative container mx-auto px-4  z-20">
        
         <div class="flex flex-col items-center justify-center text-white text-center">

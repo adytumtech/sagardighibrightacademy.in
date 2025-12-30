@@ -1,5 +1,5 @@
 <!-- Hero Section -->
-<section class="hero-section h-[470px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero-2.jpg)">
+<section class="hero-section h-[470px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero_img.jpg)">
   <div class="container mx-auto px-4">
     <div class="flex flex-col items-center justify-center text-white text-center">
       <h1 class="text-4xl md:text-5xl font-bold mb-2 bg-red-700 px-5 py-2">Gallery</h1>
@@ -10,15 +10,17 @@
 <!-- Gallery Section -->
 <section class="py-12 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-12">
+
+
+  <h1 class="text-center text-xl md:text-5xl text-red-600" >Comming Soon.....</h1>
+    <!-- <div class="text-center mb-12">
       <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-3 text-start">School Gallery</h2>
       <p class="text-lg text-gray-600 text-start">Explore our vibrant school life through our photo gallery, capturing cherished moments and memorable events.</p>
-    </div>
+    </div> -->
 
     <!-- Gallery Grid -->
-    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-      
-      <!-- Item 1 -->
+    <!-- <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+   
        <li class="group relative">
         <div class="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden shadow-lg transition-all duration-300 transform group-hover:shadow-xl group-hover:-translate-y-2">
           <img src="<?php echo URL ?>assets/img/celebration.jpg" alt="Celebration"
@@ -33,7 +35,7 @@
         </div>
       </li>
 
-      <!-- Item 2 -->
+   
       <li class="group relative">
         <div class="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden shadow-lg transition-all duration-300 transform group-hover:shadow-xl group-hover:-translate-y-2">
           <img src="<?php echo URL ?>assets/img/sports/img-1.jpg" alt="Sports and Activities"
@@ -48,7 +50,7 @@
         </div>
       </li>
 
-      <!-- Item 3 -->
+   
       <li class="group relative">
         <div class="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden shadow-lg transition-all duration-300 transform group-hover:shadow-xl group-hover:-translate-y-2">
           <img src="<?php echo URL ?>assets/img/hero-images/img-8.jpg" alt="Academic Excellence"
@@ -63,7 +65,7 @@
         </div>
       </li>
 
-      <!-- Item 4 -->
+    
         <li class="group relative">
         <div class="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden shadow-lg transition-all duration-300 transform group-hover:shadow-xl group-hover:-translate-y-2">
           <img src="<?php echo URL ?>assets/img/db-front-3.jpg" alt="School Campus"
@@ -79,7 +81,7 @@
       </li>
     
 
-      <!-- Item 5 -->
+      
       <li class="group relative">
         <div class="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden shadow-lg transition-all duration-300 transform group-hover:shadow-xl group-hover:-translate-y-2">
           <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Faculty"
@@ -94,7 +96,6 @@
         </div>
       </li>
 
-      <!-- Item 6 -->
       <li class="group relative">
         <div class="aspect-w-1 aspect-h-1 rounded-xl overflow-hidden shadow-lg transition-all duration-300 transform group-hover:shadow-xl group-hover:-translate-y-2">
           <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Student Life"
@@ -109,6 +110,6 @@
         </div>
       </li>
 
-    </ul>
+    </ul> -->
   </div>
 </section>

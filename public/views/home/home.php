@@ -20,26 +20,24 @@
       <div id="carousel-images" class="relative w-full h-[40vh] md:h-[60vh] lg:h-[80vh]">
 
         <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-100">
-          <img src="<?php echo URL ?>assets/img/hero-images/img-1.jpg" alt="Hero Image 1" class="w-full h-full object-cover">
+          <img src="<?php echo URL ?>assets/img/hero-images/img1.jpg" alt="Hero Image 1" class="w-full h-full object-cover">
         </div>
         <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-100">
-          <img src="<?php echo URL ?>assets/img/hero-images/img-2.png" alt="Hero Image 2" class="w-full h-full object-cover">
+          <img src="<?php echo URL ?>assets/img/hero-images/img2.jpg" alt="Hero Image 2" class="w-full h-full object-cover">
         </div>
         <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-100">
-          <img src="<?php echo URL ?>assets/img/hero-images/img-3.png" alt="Hero Image 3" class="w-full h-full object-cover">
+          <img src="<?php echo URL ?>assets/img/hero-images/img3.jpg" alt="Hero Image 3" class="w-full h-full object-cover">
         </div>
         <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-100">
-          <img src="<?php echo URL ?>assets/img/hero-images/img-4.jpg" alt="Hero Image 4" class="w-full h-full object-cover">
+          <img src="<?php echo URL ?>assets/img/hero-images/img4.jpg" alt="Hero Image 4" class="w-full h-full object-cover">
         </div>
         <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-100">
-          <img src="<?php echo URL ?>assets/img/hero-images/img-5.jpg" alt="Hero Image 5" class="w-full h-full object-cover">
+          <img src="<?php echo URL ?>assets/img/hero-images/img5.jpg" alt="Hero Image 5" class="w-full h-full object-cover">
         </div>
-        <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-100">
-          <img src="<?php echo URL ?>assets/img/hero-images/img-6.jpg" alt="Hero Image 6" class="w-full h-full object-cover">
-        </div>
-        <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-100">
-          <img src="<?php echo URL ?>assets/img/hero-images/img-7.jpg" alt="Hero Image 7" class="w-full h-full object-cover">
-        </div>
+        <!-- <div class="absolute inset-0 w-full h-full transition-opacity duration-1000 ease-in-out opacity-100">
+          <img src="<?php echo URL ?>assets/img/hero-images/img.jpg" alt="Hero Image 6" class="w-full h-full object-cover">
+        </div> -->
+        
 
 
       </div>
@@ -71,9 +69,9 @@
     <div class="flex flex-wrap items-center justify-evenly w-full text-white min-h-[80px] md:min-h-[120px] px-4 py-4 bg-white/10 backdrop-blur-md border border-white/30 shadow-xl rounded-xl mx-auto max-w-7xl">
 
 
-      <ul class="flex flex-wrap items-center justify-evenly w-full">
+      <!-- <ul class="flex flex-wrap items-center justify-evenly w-full">
 
-        <!-- Admission -->
+       
         <li class="flex items-center gap-3 px-4 py-2 hover:text-blue-300 transition">
           <a href="#" class="flex items-center gap-3">
             <img src="<?php echo URL ?>assets/img/admisssion.png" alt="Admission Icon" class="w-8 h-8 md:w-12 md:h-12">
@@ -83,7 +81,7 @@
 
         <span class="hidden md:block w-0.5 h-[40px] md:h-[50px] bg-white/40"></span>
 
-        <!-- Events -->
+
         <li class="flex items-center gap-3 px-4 py-2 hover:text-blue-300 transition">
           <a href="<?php echo URL ?>news_events/events" class="flex items-center gap-3">
             <img src="<?php echo URL ?>assets/img/events.png" alt="Events Icon" class="w-8 h-8 md:w-12 md:h-12">
@@ -94,7 +92,7 @@
 
         <span class="hidden md:block w-0.5 h-[40px] md:h-[50px] bg-white/40"></span>
 
-        <!-- Gallery -->
+
         <li class="flex items-center gap-3 px-4 py-2 hover:text-blue-300 transition">
           <a href="<?php echo URL ?>gallery/gallery" class="flex items-center gap-3">
             <img src="<?php echo URL ?>assets/img/photo-gallery.png" alt="Gallery Icon" class="w-8 h-8 md:w-12 md:h-12">
@@ -104,7 +102,7 @@
 
         <span class="hidden md:block w-0.5 h-[40px] md:h-[50px] bg-white/40"></span>
 
-        <!-- Activities -->
+
         <li class="flex items-center gap-3 px-4 py-2 hover:text-blue-300 transition">
           <a href="academic/activities" class="flex items-end gap-3">
             <img src="<?php echo URL ?>assets\img\school_activities.png" alt="Activities Icon" class="w-8 h-8 md:w-12 md:h-12">
@@ -112,7 +110,7 @@
           </a>
         </li>
 
-      </ul>
+      </ul> -->
       <!-- Admission Enquiry Form -->
       <section class="px-2 md:px-10 lg:px-20 py-4 md:py-6 w-full">
         <div class="w-full">
@@ -167,16 +165,13 @@
           <h2 class="text-blue-900 text-lg md:text-2xl font-bold mb-2">ABOUT US</h2>
 
           <p class="text-sm md:text-md lg:text-lg text-justify text-gray-600">
-            Don Bosco School, Malda, is a leading educational institution inspired by St. John Bosco’s vision of holistic youth development. Combining academic excellence with moral values, the school fosters intellectual growth, discipline, and social responsibility. Guided by the Salesian principles of reason, religion, and kindness, it creates a nurturing environment where students thrive academically, spiritually, and emotionally.
-          </p>
+SAGARDIGHI BRIGHT ACADEMY, established in 2007, is a dedicated educational institution committed to providing quality education in a nurturing and inclusive environment. Located in the rural region of Sagardighi, Murshidabad, the school focuses on building strong academic foundations while promoting discipline, responsibility, and moral values among students.          </p>
 
           <p class="text-sm md:text-md lg:text-lg text-justify text-gray-600 mt-4">
-            With modern infrastructure, dedicated faculty, and a student-centric approach, the school emphasizes innovative learning, sports, arts, and leadership training. Rooted in value-based education, it cultivates integrity, empathy, and environmental awareness, preparing students to be confident, compassionate global citizens.
-          </p>
+The academy offers education from pre-primary to secondary level with Bengali as the medium of instruction. With committed teachers, well-maintained classrooms, and essential learning facilities, the school encourages curiosity, creativity, and continuous growth. Equal emphasis is given to academic learning and character development to help students gain confidence and clarity in their goals.          </p>
 
           <p class="text-sm md:text-md lg:text-lg text-justify text-gray-600 mt-4">
-            As part of the worldwide Don Bosco network, the institution balances tradition with progressive education, shaping well-rounded individuals ready to contribute meaningfully to society.
-          </p>
+Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT ACADEMY strives to nurture responsible, knowledgeable, and compassionate individuals. The institution remains devoted to empowering students with values, skills, and education that prepare them to contribute positively to society.          </p>
         </div>
 
       </div>
@@ -195,80 +190,99 @@
       <h2 class="text-2xl md:text-4xl font-bold mb-6 md:mb-10">WHY CHOOSE US</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-10 lg:px-20 pb-10">
         <!-- Card 1 - One Stop Solution -->
-        <div class="bg-white hover:bg-blue-100 transition-all duration-300  shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
-              <i class="fa-solid fa-lightbulb text-xl"></i>
+       <div class="bg-white hover:bg-blue-100 transition-all duration-300 shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
+           <div class="flex items-center gap-3 mb-4">
+              <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
+                <i class="fa-solid fa-book-open text-xl"></i>
+              </div>
+               <h3 class="text-xl font-bold">Strong Academic Foundation</h3>
             </div>
-            <h3 class="text-xl font-bold">One Stop Solution</h3>
-          </div>
-          <p class="text-sm md:text-base">A school that covers everything from homework classes, co- curricular activities, extra-tuitions and much more.</p>
+           <p class="text-sm md:text-base">
+                 Focused teaching methods that help students build clear concepts and strong fundamentals from the early classes.
+            </p>     
         </div>
+
 
         <!-- Card 2 - Modern Facilities -->
-        <div class="bg-white hover:bg-blue-100 transition-all duration-300  shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
+      <div class="bg-white hover:bg-blue-100 transition-all duration-300 shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
           <div class="flex items-center gap-3 mb-4">
             <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
-              <i class="fa-solid fa-building text-xl"></i>
-            </div>
-            <h3 class="text-xl font-bold">Modern Facilities</h3>
+             <i class="fa-solid fa-chalkboard-user text-xl"></i>
           </div>
-          <p class="text-sm md:text-base">State-of-the-art infrastructure and technology to support innovative learning experiences for all students.</p>
-        </div>
+       <h3 class="text-xl font-bold">Dedicated Teaching Staff</h3>
+      </div>
+        <p class="text-sm md:text-base">
+         Our teachers are committed, approachable, and focused on guiding every student with care and personal attention.
+       </p>
+     </div>
+
 
         <!-- Card 3 - Holistic Education -->
-        <div class="bg-white hover:bg-blue-100 transition-all duration-300  shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
+       <div class="bg-white hover:bg-blue-100 transition-all duration-300 shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
           <div class="flex items-center gap-3 mb-4">
-            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
-              <i class="fa-solid fa-brain text-xl"></i>
-            </div>
-            <h3 class="text-xl font-bold">Holistic Education</h3>
+           <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
+            <i class="fa-solid fa-face-smile text-xl"></i>
           </div>
-          <p class="text-sm md:text-base">Developing mind, body and spirit through a balanced curriculum and extracurricular activities.</p>
-        </div>
+          <h3 class="text-xl font-bold">Student-Friendly Environment</h3>
+       </div>
+            <p class="text-sm md:text-base">
+             A supportive and respectful atmosphere where students feel comfortable, confident, and motivated to learn.
+        </p>
+      </div>
+
 
         <!-- Card 4 - Safe Environment -->
-        <div class="bg-white hover:bg-blue-100 transition-all duration-300  shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
-              <i class="fa-solid fa-shield-halved text-xl"></i>
-            </div>
-            <h3 class="text-xl font-bold">Safe Environment</h3>
+       <div class="bg-white hover:bg-blue-100 transition-all duration-300 shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
+         <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
+            <i class="fa-solid fa-scale-balanced text-xl"></i>
           </div>
-          <p class="text-sm md:text-base">Secure campus with trained staff and comprehensive safety protocols for student wellbeing.</p>
+           <h3 class="text-xl font-bold">Discipline & Values</h3>
         </div>
+          <p class="text-sm md:text-base">
+            Emphasis on discipline, honesty, respect, and responsibility to shape students into good human beings.
+          </p>
+       </div>
+
 
         <!-- Card 5 - Value Based Learning -->
-        <div class="bg-white hover:bg-blue-100 transition-all duration-300  shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
-              <i class="fa-solid fa-hand-holding-heart text-xl"></i>
-            </div>
-            <h3 class="text-xl font-bold">Value Based Learning</h3>
-          </div>
-          <p class="text-sm md:text-base">Character development and ethical values integrated throughout our educational approach.</p>
+   <div class="bg-white hover:bg-blue-100 transition-all duration-300 shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
+         <div class="flex items-center gap-3 mb-4">
+          <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
+            <i class="fa-solid fa-puzzle-piece text-xl"></i>
+         </div>
+          <h3 class="text-xl font-bold">Balanced Learning</h3>
         </div>
+       <p class="text-sm md:text-base">
+         Along with academics, students are encouraged to participate in cultural activities and creative learning.
+        </p>
+</div>
+
 
         <!-- Card 6 - Community Focus -->
-        <div class="bg-white hover:bg-blue-100 transition-all duration-300  shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
-          <div class="flex items-center gap-3 mb-4">
-            <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
-              <i class="fa-solid fa-people-group text-xl"></i>
-            </div>
-            <h3 class="text-xl font-bold">Community Focus</h3>
-          </div>
-          <p class="text-sm md:text-base">Strong partnerships with families and community organizations to enhance learning.</p>
-        </div>
+<div class="bg-white hover:bg-blue-100 transition-all duration-300 shadow-lg p-6 flex flex-col items-center text-center text-blue-900 h-full">
+ <div class="flex items-center gap-3 mb-4">
+   <div class="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center text-white">
+      <i class="fa-solid fa-child-reaching text-xl"></i>
+   </div>
+  <h3 class="text-xl font-bold">Focus on Every Child</h3>
+</div>
+ <p class="text-sm md:text-base">
+    Individual attention is given to help each student grow academically, emotionally, and socially.
+  </p>
+</div>
+
+
       </div>
+
     </div>
   </section>
 
   <!-- images -->
-  <section class="">
+  <!-- <section class="">
     <div class="max-w-7xl mx-auto my-8">
       <h1 class="text-3xl md:text-4xl font-bold text-blue-800 mb-8 text-center">Our Images</h1>
 
-      <!-- Gallery Grid -->
       <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-2 md:px-0" id="gallery">
         <div><img src="<?php echo URL ?>assets/img/db-front-1.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
         <div><img src="<?php echo URL ?>assets/img/db-front-6.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
@@ -276,18 +290,18 @@
         <div><img src="<?php echo URL ?>assets/img/db-front-4.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
         <div><img src="<?php echo URL ?>assets/img/db-front-7.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
         <div><img src="<?php echo URL ?>assets/img/db-front-8.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
-        <!-- Add unlimited more images below -->
+        
       </div>
     </div>
-  </section>
+  </section> -->
 
   <!-- Modal -->
-  <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-80 z-50 hidden items-center justify-center">
+  <!-- <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-80 z-50 hidden items-center justify-center">
     <button onclick="closeModal()" class="absolute top-4 right-4 text-white text-3xl font-bold">&times;</button>
     <button onclick="prevImage()" class="absolute left-4 text-white text-4xl font-bold">&#10094;</button>
     <img id="modalImage" src="" class="max-w-[90%] max-h-[90%] border-4 border-white rounded shadow-xl transition-all duration-300" />
     <button onclick="nextImage()" class="absolute right-4 text-white text-4xl font-bold">&#10095;</button>
-  </div>
+  </div> -->
 
 
   <!-- Events Section -->
@@ -552,12 +566,40 @@
       <!-- Review Cards Container -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         <!-- Review Card 1 -->
+        <div class="bg-red-50   shadow-lg overflow-hidden border border-gray-100 transform transition-all hover:scale-[1.02] hover:shadow-xl">
+          <div class="p-6 md:p-8">
+            <div class="flex items-start mb-6">
+              <img src="<?php echo URL ?>assets/img/mom.png" alt="Parent Photo" class="w-16 h-16 object-fit">
+              <div class="ml-4">
+                <h3 class="text-lg font-semibold text-gray-800">Sunita Mondal</h3>
+                <div class="flex items-center mt-1">
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-base leading-relaxed">
+           “Sagardighi Bright Academy আমার সন্তানের পড়াশোনার জন্য খুবই ভালো একটি স্কুল। শিক্ষকরা খুব যত্ন নিয়ে পড়ান এবং ছাত্রছাত্রীদের শৃঙ্খলা ও মূল্যবোধ শেখান। আমি এই স্কুল নিয়ে সম্পূর্ণ সন্তুষ্ট।”
+            </p>
+          </div>
+        </div>
+ <!-- Review Card 3 (New) -->
         <div class="bg-blue-50   shadow-lg overflow-hidden border border-gray-100 transform transition-all hover:scale-[1.02] hover:shadow-xl">
           <div class="p-6 md:p-8">
             <div class="flex items-start mb-6">
-              <img src="<?php echo URL ?>assets/img/female.png" alt="Parent Photo" class="w-14 h-14 rounded-full object-cover border-2 border-blue-100">
+              <img src="<?php echo URL ?>assets/img/dad.png" alt="Parent Photo" class="w-16 h-16 object-fit  ">
               <div class="ml-4">
-                <h3 class="text-lg font-semibold text-gray-800">Susmita Banerjee</h3>
+                <h3 class="text-lg font-semibold text-gray-800">Mr. Abdul Rahman</h3>
                 <div class="flex items-center mt-1">
                   <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
@@ -575,68 +617,38 @@
               </div>
             </div>
             <p class="text-gray-600 text-base leading-relaxed">
-              "Don Bosco School has exceeded our expectations. The teachers are caring and dedicated, creating an environment that balances discipline with warmth. Our child has flourished both academically and morally since joining. The school's values align perfectly with what we want for our child's education."
-            </p>
+                “এই স্কুলে পড়াশোনার পরিবেশ খুব সুন্দর ও নিরাপদ। শিক্ষকদের ব্যবহার খুবই ভালো এবং তারা প্রতিটি ছাত্রছাত্রীর দিকে আলাদা নজর দেন। গ্রামের এলাকায় এমন একটি ভালো স্কুল পাওয়া সত্যিই গর্বের বিষয়।”            </p>
+          </div>
+        </div>
+        <!-- Review Card 3 -->
+        <div class="bg-red-50  shadow-lg overflow-hidden border border-gray-100 transform transition-all hover:scale-[1.02] hover:shadow-xl">
+          <div class="p-6 md:p-8">
+            <div class="flex items-start mb-6">
+              <img src="<?php echo URL ?>assets/img/mom.png" alt="Parent Photo" class="w-16 h-16 p-1 object-fit">
+              <div class="ml-4">
+                <h3 class="text-lg font-semibold text-gray-800">Kaberi Das</h3>
+                <div class="flex items-center mt-1">
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <p class="text-gray-600 text-base leading-relaxed">
+               “Sagardighi Bright Academy provides a caring and disciplined learning environment for students. The teachers are supportive and focused on building strong academic basics. I am happy with my child’s progress and overall development.”            </p>
           </div>
         </div>
 
-        <!-- Review Card 2 -->
-        <div class="bg-blue-50  shadow-lg overflow-hidden border border-gray-100 transform transition-all hover:scale-[1.02] hover:shadow-xl">
-          <div class="p-6 md:p-8">
-            <div class="flex items-start mb-6">
-              <img src="<?php echo URL ?>assets/img/man.png" alt="Parent Photo" class="w-14 h-14 rounded-full object-cover border-2 border-blue-100">
-              <div class="ml-4">
-                <h3 class="text-lg font-semibold text-gray-800">Rahul Sharma</h3>
-                <div class="flex items-center mt-1">
-                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <p class="text-gray-600 text-base leading-relaxed">
-              "We are deeply grateful for the nurturing environment at Don Bosco School. Our child looks forward to school each day, which speaks volumes about the positive atmosphere. The teachers go above and beyond to develop both academic skills and core values in students."
-            </p>
-          </div>
-        </div>
-
-        <!-- Review Card 3 (New) -->
-        <div class="bg-blue-50   shadow-lg overflow-hidden border border-gray-100 transform transition-all hover:scale-[1.02] hover:shadow-xl">
-          <div class="p-6 md:p-8">
-            <div class="flex items-start mb-6">
-              <img src="<?php echo URL ?>assets/img/female.png" alt="Parent Photo" class="w-14 h-14 rounded-full object-cover border-2 border-blue-100">
-              <div class="ml-4">
-                <h3 class="text-lg font-semibold text-gray-800">Priya Chatterjee</h3>
-                <div class="flex items-center mt-1">
-                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                  <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
-                  </svg>
-                </div>
-              </div>
-            </div>
-            <p class="text-gray-600 text-base leading-relaxed">
-              "The holistic approach to education at Don Bosco is impressive. My child has developed not just academically, but also in sports and co-curricular activities. The communication from school is excellent, keeping us informed about our child's progress."
-            </p>
-          </div>
-        </div>
+       
       </div>
 
       <!-- Navigation Dots -->
