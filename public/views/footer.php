@@ -61,7 +61,7 @@
       <div class="flex flex-col text-gray-300 ">
           
         <p class="text-sm md:text-base">
-           <i class="fa-solid fa-phone text-white-300 mr-2"></i>
+          <i class="fa-solid fa-location-dot text-xl "></i>
        Santoshpur, Sagardighi <br>
          Murshidabad, West Bengal – 742226
        </p>

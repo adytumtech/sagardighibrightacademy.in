@@ -98,48 +98,52 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Mu
 
 
   <header class="w-full sticky top-0 z-50 shadow-md bg-blue-800">
-    <!-- Top Contact Bar -->
-    <div class="w-full text-white bg-gradient-to-r px-4 lg:px-10 py-1.5 flex flex-col md:flex-row justify-between items-center gap-2 text-xs md:text-sm">
+<!-- Top Contact Bar -->
+<div class="w-full text-white bg-gradient-to-r from-blue-900 to-red-700 px-4 lg:px-10 py-2 text-xs md:text-sm">
+  
+  <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-3">
 
-      <!-- Left: Contact Info -->
-      <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6">
-        <div class="flex items-center gap-1 ">
-          <i class="fa-solid fa-phone text-sm"></i>
-          <span>+91-9733656523
-    </span>
-        </div>
-        <span>|</span>
-        <div class="flex items-center gap-1.5 rounded-full">
-          <i class="fa-solid fa-envelope text-sm"></i>
-          <span class="hidden sm:inline">sagardighibrightacademy2007@gmail.com</span>
-          <span class="sm:hidden">Email</span>
-        </div>
+    <!-- Left: Contact Info -->
+    <div class="flex items-center gap-4">
+      <div class="flex items-center gap-1">
+        <i class="fa-solid fa-phone text-sm"></i>
+        <span>+91-97336-56523</span>
       </div>
 
-      <!-- Right: Social Icons -->
-      <ul class="flex items-center gap-3 md:gap-4 text-base">
-        <li>
-          <a href="https://www.facebook.com/share/14Rdn78LdEq/" aria-label="Facebook" class="hover:text-blue-200 transition-colors">
-            <i class="fa-brands fa-facebook-f"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="Instagram" class="hover:text-pink-200 transition-colors">
-            <i class="fa-brands fa-instagram"></i>
-          </a>
-        </li>
-        <!-- <li>
-          <a href="#" aria-label="Twitter" class="hover:text-blue-200 transition-colors">
-            <i class="fa-brands fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a href="#" aria-label="LinkedIn" class="hover:text-blue-200 transition-colors">
-            <i class="fa-brands fa-linkedin-in"></i>
-          </a>
-        </li> -->
-      </ul>
+      <span class="hidden md:inline">|</span>
+
+      <div class="flex items-center gap-1.5">
+        <i class="fa-solid fa-envelope text-sm"></i>
+        <span class="hidden sm:inline">sagardighibrightacademy2007@gmail.com</span>
+        <span class="sm:hidden">Email</span>
+      </div>
     </div>
+
+    <!-- Center: Location -->
+    <div class="flex items-center gap-2 text-center">
+      <i class="fa-solid fa-location-dot text-sm"></i>
+      <span>Santoshpur, Sagardighi, Murshidabad – 742226</span>
+    </div>
+
+    <!-- Right: Social Icons -->
+    <ul class="flex items-center gap-4 text-base">
+      <li>
+        <a href="https://www.facebook.com/share/14Rdn78LdEq/" aria-label="Facebook"
+           class="hover:text-blue-200 transition-colors">
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+      </li>
+      <li>
+        <a href="#" aria-label="Instagram"
+           class="hover:text-pink-200 transition-colors">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+      </li>
+    </ul>
+
+  </div>
+</div>
+
 
     <!-- Main Navigation -->
     <div class="w-full bg-white">
