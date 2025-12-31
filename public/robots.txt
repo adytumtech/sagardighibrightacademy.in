@@ -5,12 +5,14 @@ Disallow: /admin/
 Disallow: /config/
 Disallow: /core/
 
-Allow: /public/assets/
-Allow: /public/css/
-Allow: /public/js/
-Allow: /public/images/
+# Explicit search bots
+User-agent: Googlebot
+Allow: /
 
-# AI & Chatbot
+User-agent: Bingbot
+Allow: /
+
+# AI & Chatbot Crawlers
 User-agent: GPTBot
 Allow: /
 
@@ -25,4 +27,3 @@ Allow: /
 
 # Sitemap
 Sitemap: https://www.sagardighibrightacademy.in/sitemap.xml
-

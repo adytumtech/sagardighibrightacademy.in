@@ -92,7 +92,7 @@ class home extends Controller
         // Enable SSL verification for production security
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 2);
-        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (compatible; DonBoscoBot/1.0)');
+        curl_setopt($ch, CURLOPT_USERAGENT, 'Mozilla/5.0 (compatible; Sagardighi Bright Academy; https://sagardighibrightacademy.com)');
         // Set a reasonable timeout
         curl_setopt($ch, CURLOPT_TIMEOUT, 30);
 

@@ -1,6 +1,6 @@
 <?php
 if ($_SERVER['REQUEST_URI'] == $_SERVER['PHP_SELF']) header("Location: noPage");
-if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Malda, West Bengal, India';
+if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Murshidabad, West Bengal, India';
 ?>
 <!doctype html>
 <html>
@@ -8,9 +8,9 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <!-- SEO Meta -->
-  <meta name="description" content="<?php echo $this->metaDescription ?? 'SagarDighi Bright Academy is a reputed school in Sagardighi, Murshidabad, West Bengal, focused on quality education and holistic student development.'; ?>">
-  <meta name="keywords" content="<?php echo $this->metaKeywords ?? 'SagarDighi Bright Academy, School in Sagardighi, Best School in Murshidabad, Bright Academy Sagardighi'; ?>">
+<!-- SEO Meta -->
+<meta name="description" content="Sagardighi Bright Academy is a Bengali-medium co-educational school in Santoshpur, Sagardighi, Murshidabad. Established in 2007 and affiliated with WBBSE and WBCHSE, the school provides quality education from pre-primary to secondary level.">
+<meta name="keywords" content="Sagardighi Bright Academy, School in Sagardighi Murshidabad, Bengali Medium School in Murshidabad, WBBSE School Sagardighi, WBCHSE School Murshidabad, Santoshpur Sagardighi School">
 
   <!-- Canonical (query string removed) -->
   <?php
@@ -20,12 +20,14 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
   ?>
   <link rel="canonical" href="<?= $canonical ?>">
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="<?php echo $this->pageTitle ?? 'SagarDighi Bright Academy'; ?>">
-  <meta property="og:description" content="<?php echo $this->metaDescription ?? 'SagarDighi Bright Academy is a leading school in Sagardighi, Murshidabad, West Bengal.'; ?>">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER['REQUEST_URI'], '?'); ?>">
-  <meta property="og:image" content="<?php echo URL ?>assets/img/hero-images/img-1.jpg">
+ <!-- Open Graph -->
+<meta property="og:title" content="Sagardighi Bright Academy">
+<meta property="og:description" content="Sagardighi Bright Academy is a Bengali-medium co-educational school in Santoshpur, Sagardighi, Murshidabad, affiliated with WBBSE and WBCHSE.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="<?php echo 'https://' . $_SERVER['HTTP_HOST'] . strtok($_SERVER['REQUEST_URI'], '?'); ?>">
+<meta property="og:image" content="<?php echo URL ?>assets/img/hero-images/img-1.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 
   <!-- Robots -->
   <meta name="robots" content="index, follow">
@@ -67,7 +69,8 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "Admissions",
-        "email": "info@sagardighibrightacademy.com"
+       "email": "sagardighibrightacademy2007@gmail.com"
+
       },
       "sameAs": [
         "https://www.facebook.com/sagardighibrightacademy",
@@ -105,7 +108,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
         <div class="flex items-center gap-1 ">
           <i class="fa-solid fa-phone text-sm"></i>
           <span> 9733656523
-</span>
+    </span>
         </div>
         <span>|</span>
         <div class="flex items-center gap-1.5 rounded-full">

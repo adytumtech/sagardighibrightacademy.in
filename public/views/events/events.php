@@ -1,5 +1,5 @@
 <!-- Hero Section -->
-<section class="hero-section h-[470px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero_img.jpg)">
+<section class="hero-section h-[300px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero_img.jpg)">
   <div class="container mx-auto px-4">
     <div class="flex flex-col items-center justify-center text-white text-center">
       <h1 class="text-4xl md:text-5xl font-bold mb-2 bg-red-700 px-5 py-2">School Events</h1>

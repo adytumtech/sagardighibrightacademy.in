@@ -1,15 +1,13 @@
 <?php /* About Page – SAGARDIGHI BRIGHT ACADEMY */ ?>
 
 <!-- Hero Section -->
-<section class="relative h-[420px] bg-[#173572] flex items-center justify-center">
-  <div class="container mx-auto px-4 text-center text-white">
-    <h1 class="text-4xl md:text-5xl font-bold bg-yellow-500 inline-block px-6 py-3">
-      About Us
-    </h1>
-    <p class="mt-4 text-lg md:text-xl font-medium">
-      SAGARDIGHI BRIGHT ACADEMY
-    </p>
-  </div>
+<section class="hero-section h-[300px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero_img.jpg)">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-col items-center justify-center text-white text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-2 bg-red-700 px-5 py-2">About Us</h1>
+           
+        </div>
+    </div>
 </section>
 
 <!-- Overview Section -->
