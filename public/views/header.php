@@ -161,7 +161,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Mu
             <h1 class="text-sm lg:text-xl font-bold tracking-tight text-blue-800">
              SAGARDIGHI BRIGHT ACADEMY
             </h1>
-            <p class="text-gray-600 text-xs lg:text-sm">Established – 2007</p>
+            <p class="text-gray-600 text-xs lg:text-sm">ESTD – 2007 | DISE CODE: 19072010305</p>
           </div>
         </div>
 
