@@ -2,7 +2,7 @@
 <section class="hero-section h-[300px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero_img.jpg)">
     <div class="container mx-auto px-4">
         <div class="flex flex-col items-center justify-center text-white text-center">
-            <h1 class="text-4xl md:text-5xl font-bold mb-2 bg-red-700 px-5 py-2">Contact</h1>
+            <h1 class="text-2xl md:text-4xl font-bold mb-2 bg-red-700 px-5 py-2">Contact</h1>
            
         </div>
     </div>
@@ -15,7 +15,7 @@
     <div class="space-y-6 w-full lg:w-1/3 flex flex-col">
       <!-- Contact Info Card -->
       <div class="bg-blue-800 border-l-4 border-yellow-400 p-6 shadow">
-        <h2 class="text-xl font-semibold text-yellow-400 mb-4"><i class="fa-solid fa-location-dot text-xl text-yellow-400"></i> Don Bosco City Office</h2>
+        <h2 class="text-xl font-semibold text-yellow-400 mb-4"><i class="fa-solid fa-location-dot text-xl text-yellow-400"></i> SAGARDIGHI BRIGHT ACADEMY</h2>
         <ul class="text-white space-y-2 list-disc pl-5 text-sm">
           <li>SANTOSHPUR SAGARDIGHI</li>
           <li>Dist. Murshidabad - 742226.</li>

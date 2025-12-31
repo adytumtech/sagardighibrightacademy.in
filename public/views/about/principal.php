@@ -5,7 +5,7 @@
   <div class="relative container mx-auto px-4  z-20">
 
     <div class="flex flex-col items-center justify-center text-white text-center">
-      <h1 class="text-4xl md:text-5xl font-bold mb-2 bg-red-700 px-5 py-2">Principal Message</h1>
+      <h1 class="text-2xl md:text-4xl font-bold mb-2 bg-red-700 px-5 py-2">Principal Message</h1>
     </div>
   </div>
 </section>
@@ -14,7 +14,7 @@
 
     <!-- Header -->
     <div class="text-center mb-10">
-      <h2 class="text-3xl md:text-4xl font-bold text-blue-900 tracking-wide">
+      <h2 class="text-2xl md:text-3xl font-bold text-blue-900 tracking-wide">
         A Message from the Principal
       </h2>
       <div class="w-20 h-1 bg-yellow-400 mx-auto mt-4"></div>
