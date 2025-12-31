@@ -8,10 +8,10 @@ class academic extends Controller
         parent::__construct();
     }
 
-    public function academic()
+    public function index()
     {
-        $this->view->pageTitle = "Academic | Sagardighi Bright Academy";
+        $this->view->pageTitle = "Academic  | Sagardighi Bright Academy ";
+   
         $this->view->render('academic', 'academic');
     }
-   
 }

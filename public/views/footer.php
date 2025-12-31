@@ -47,8 +47,8 @@
           <i class="fa-solid fa-phone text-yellow-300 mr-2"></i>
           +91 9733656523
         </span>
-        <span class="break-all">
-          <i class="fa-solid fa-envelope text-yellow-300 mr-2"></i>
+        <span class="break-all text-[14px]">
+          <i class="fa-solid fa-envelope text-yellow-300 mr-2 text-sm"></i>
           sagardighibrightacademy2007@gmail.com
         </span>
       </div>
@@ -62,38 +62,35 @@
         <h4 class="font-semibold mb-2 text-lg text-yellow-400">Quick Links</h4>
         <ul class="text-sm md:text-base space-y-1">
           <li><a href="<?php echo URL ?>about/about_school" class="hover:text-yellow-300 transition">About School</a></li>
-          <li><a href="<?php echo URL ?>admission/procedure" class="hover:text-yellow-300 transition">Admission Process</a></li>
-          <li><a href="<?php echo URL ?>news_events/events" class="hover:text-yellow-300 transition">Events</a></li>
-          <li><a href="<?php echo URL ?>gallery/gallery" class="hover:text-yellow-300 transition">Gallery</a></li>
+          <li><a href="<?php echo URL ?>#" class="hover:text-yellow-300 transition">Admission</a></li>
+          <li><a href="<?php echo URL ?>events" class="hover:text-yellow-300 transition">Events</a></li>
+          <li><a href="<?php echo URL ?>gallery" class="hover:text-yellow-300 transition">Gallery</a></li>
           <li><a href="<?php echo URL ?>career" class="hover:text-yellow-300 transition">Career</a></li>
         </ul>
       </div>
 
       <!-- Timing -->
-      <div>
-        <h4 class="font-semibold mb-2 text-lg text-yellow-400">Timing</h4>
-        <ul class="text-sm md:text-base space-y-2">
-          <li>
-            <span class="font-semibold">Play Group to Class II</span><br />
-            Mon – Fri: 8:55 AM – 1:00 PM
-          </li>
-          <li>
-            <span class="font-semibold">Class III – X, XI (A/S/C)</span><br />
-            Mon – Fri: 8:55 AM – 3:05 PM
-          </li>
-          <li>
-            <span class="font-semibold">PG IX to XI</span><br />
-            Working Saturdays: 8:55 AM – 1:00 PM
-          </li>
-        </ul>
-      </div>
+   <div>
+  <h4 class="font-semibold mb-2 text-lg text-yellow-400">School Timing</h4>
+  <ul class="text-sm md:text-base space-y-2">
+    <li>
+      <span class="font-semibold">Opening and Closing</span><br />
+      Monday – Friday: 8:55 AM – 1:00 PM <br />
+      Saturday: 8:55 AM – 12:30 PM <br />
+      Sunday: Closed
+    </li>
+
+   
+  </ul>
+</div>
+
 
       <!-- Map -->
       <div>
         <h4 class="font-semibold mb-2 text-lg text-yellow-400">Find Us on Map</h4>
         <iframe
           class="w-full h-[180px] rounded-lg"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3615.5138971825754!2d88.16822187525223!3d25.016628477827652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fb03b1616fb205%3A0xfcf854fab9a7edaf!2sDon%20Bosco%20School!5e0!3m2!1sen!2sin!4v1751964248341!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3636.777926749258!2d88.08993077513273!3d24.28448597830978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fa2dde0634b275%3A0xb9a6a366404b98b9!2sSagardighi%20Bright%20Academy!5e0!3m2!1sen!2sin!4v1767166964013!5m2!1sen!2sin"
           style="border:0;"
           allowfullscreen
           loading="lazy"
@@ -106,7 +103,7 @@
 </div>
 
 
-    <div class="bg-[#af4547] text-center py-3 mt-8 text-sm md:text-base">
+    <div class="bg-[#690506] text-center py-3 mt-8 text-sm md:text-base">
         © 2025 SagarDighi Bright Academi. All Rights Reserved | Design by <a href="https://www.adytumtech.com/" class="underline"> Adytuminfotech Softwares Pvt. Ltd.</a>
     </div>
 </footer>

@@ -185,30 +185,14 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Ma
             </div>
             <ul class="sub-items hidden lg:group-hover:block lg:absolute lg:left-0 lg:top-full bg-blue-700 text-white  lg:shadow-lg lg:z-50 lg:min-w-[250px] lg:max-w-[250px] whitespace-nowrap text-start">
               <li class="border-b"><a href="<?php echo URL ?>about/about_school" class="block px-4 py-2 hover:bg-blue-800 ">About School</a></li>
-              <li class="border-b"><a href="<?php echo URL ?>about/st_donbosc_visionary" class="block px-4 py-2 hover:bg-blue-800 ">St. Don Bosco: The Visionary</a></li>
-              <li class="border-b"><a href="<?php echo URL ?>about/founder" class="block px-4 py-2 hover:bg-blue-800 ">Founder</a></li>
-              <li class="border-b"><a href="<?php echo URL ?>about/chairman" class="block px-4 py-2 hover:bg-blue-800 ">Chairman message</a></li>
               <li class="border-b"><a href="<?php echo URL ?>about/principal" class="block px-4 py-2 hover:bg-blue-800 ">Principal message</a></li>
-              <li class="border-t"><a href="<?php echo URL ?>about/director" class="block px-4 py-2 hover:bg-blue-800 ">Director</a></li>
             </ul>
           </li>
 
-          <!-- Academic Dropdown -->
+          <!-- Academic  -->
+          <li class="w-full lg:w-auto"><a href="<?php echo URL ?>academic" class="block py-2 lg:py-0 px-2 font-medium text-gray-800 hover:text-blue-700 transition-colors">Academic</a></li>
 
-          <!-- About Us -->
-          <li class="text-gray-800 hover:text-blue-700  font-medium cursor-pointer group relative lg:h-full lg:flex w-full lg:w-auto px-2 py-1">
-            <div class="submenu-btn flex gap-1 items-center ">
-              Academic <i class="fa-solid fa-angle-down"></i>
-            </div>
-            <ul class="sub-items hidden lg:group-hover:block lg:absolute lg:left-0 lg:top-full bg-blue-700 text-white  lg:shadow-lg lg:z-50 lg:min-w-[250px] lg:max-w-[250px] whitespace-nowrap text-start">
-              <li class="border-b"><a href="<?php echo URL ?>about/about_school" class="block px-4 py-2  hover:bg-blue-800 ">About School</a></li>
-              <li class="border-b"><a href="<?php echo URL ?>about/st_donbosc_visionary" class="block px-4 py-2 hover:bg-blue-800 ">St. Don Bosco: The Visionary</a></li>
-              <li class="border-b"><a href="<?php echo URL ?>about/founder" class="block px-4 py-2 hover:bg-blue-800 ">Founder</a></li>
-              <li class="border-b"><a href="<?php echo URL ?>about/chairman" class="block px-4 py-2 hover:bg-blue-800 ">Chairman message</a></li>
-              <li class="border-b"><a href="<?php echo URL ?>about/principal" class="block px-4 py-2 hover:bg-blue-800 ">Principal message</a></li>
-              <li class="border-t"><a href="<?php echo URL ?>about/director" class="block px-4 py-2 hover:bg-blue-800 ">Director</a></li>
-            </ul>
-          </li>
+         
 
           <!-- Admission Dropdown -->
           <li class="w-full lg:w-auto"><a href="#" class="block py-2 lg:py-0 px-2  text-gray-800  font-medium hover:text-blue-700 transition-colors">Admission</a></li>

@@ -15,35 +15,7 @@ class about extends Controller
         $this->view->js = array("views/about/about_school.js");
         $this->view->render('about', 'about_school');
     }
-    public function st_donbosc_visionary()
-    {
-        $this->view->pageTitle = "St. Don Bosco: Visionary Educator | Sagardighi Bright Academy";
-        $this->view->css = array("views/about/st_donbosca_visionary.css");
-        $this->view->js = array("views/about/st_donbosc_visionary.js");
-        $this->view->render('about', 'st_donbosc_visionary');
-    }
-    public function founder()
-    {
-        $this->view->pageTitle = "About Founder | Sagardighi Bright Academy";
-        $this->view->css = array("views/about/founder.css");
-        $this->view->js = array("views/about/founder.js");
-        $this->view->render('about', 'founder');
-    }
-
-    public function chairman()
-    {
-        $this->view->pageTitle = "About Chairman | Sagardighi Bright Academy";
-        $this->view->css = array("views/about/chairman.css");
-        $this->view->js = array("views/about/chairman.js");
-        $this->view->render('about', 'chairman');
-    }
-    public function director()
-    {
-        $this->view->pageTitle = "About Director | Sagardighi Bright Academy";
-        $this->view->css = array("views/about/director.css");
-        $this->view->js = array("views/about/director.js");
-        $this->view->render('about', 'director');
-    }
+   
     public function principal()
     {
         $this->view->pageTitle = "About Principal | Sagardighi Bright Academy";

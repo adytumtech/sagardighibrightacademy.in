@@ -58,8 +58,7 @@
         <span class="w-3 h-3 bg-white rounded-sm inline-block cursor-pointer opacity-80 transition-all duration-300" data-index="2"></span>
         <span class="w-3 h-3 bg-white rounded-sm inline-block cursor-pointer opacity-80 transition-all duration-300" data-index="2"></span>
         <span class="w-3 h-3 bg-white rounded-sm inline-block cursor-pointer opacity-80 transition-all duration-300" data-index="2"></span>
-        <span class="w-3 h-3 bg-white rounded-sm inline-block cursor-pointer opacity-80 transition-all duration-300" data-index="2"></span>
-        <span class="w-3 h-3 bg-white rounded-sm inline-block cursor-pointer opacity-80 transition-all duration-300" data-index="2"></span>
+       
 
       </div>
     </div>
@@ -316,62 +315,62 @@ Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT 
         <!-- Carousel Container -->
         <div id="event-carousel" class="overflow-hidden">
           <div id="event-carousel-track" class="flex transition-transform duration-500 ease-in-out">
-            <!-- Event 1 - Science Festival -->
+            <!-- Event 1 - Annual Sports -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/science festival.jpg"
+                <img src="<?php echo URL ?>assets/img/events-images/img1.jpg"
                   alt="Science Festival"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">Science Festival</h3>
-                  <p class="text-gray-600">Annual showcase of student innovations and scientific discoveries</p>
-                  <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/science">
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Annual Sports</h3>
+                  <p class="text-gray-600">Annual Sports Day promotes physical fitness, teamwork, and sportsmanship through various competitive events, encouraging students to develop discipline, confidence, and a healthy lifestyle.</p>
+                  <!-- <div class="mt-4">
+                    <a href="<?php echo URL ?>assets/img/events-images/annual-sports.jpg">
                       <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
                         View Images
                       </button>
                     </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
 
-            <!-- Event 2 - Sports Day -->
+            <!-- Event 2 - World Environment Day Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0 ">
               <div class="bg-white  border-2 border-blue-500 shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/sport.jpg"
+                <img src="<?php echo URL ?>assets/img/events-images/img2.jpg"
                   alt="Sports Day"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">Sports Day</h3>
-                  <p class="text-gray-600">Annual athletic competition celebrating sportsmanship and teamwork</p>
-                  <div class="mt-4">
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">World Environment Day </h3>
+                  <p class="text-gray-600">World Environment Day raises awareness about environmental protection, encouraging students to adopt eco-friendly habits and understand the importance of preserving nature for future generations.</p>
+                  <!-- <div class="mt-4">
                     <a href="<?php echo URL ?>gallery/sport_activities">
                       <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
                         View Images
                       </button>
                     </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
 
-            <!-- Event 3 - Rabindra Jayanti -->
+            <!-- Event 3 - Holi Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/rabindra jayanti.jpg"
+                <img src="<?php echo URL ?>assets/img/events-images/img3.jpg"
                   alt="Rabindra Jayanti"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">Rabindra Jayanti</h3>
-                  <p class="text-gray-600">Celebration of Tagore's birth anniversary with cultural performances</p>
-                  <div class="mt-4">
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Holi Celebration</h3>
+                  <p class="text-gray-600">Holi is celebrated with colors, joy, and unity, spreading messages of friendship, harmony, and happiness among students and teachers in a vibrant school atmosphere.</p>
+                  <!-- <div class="mt-4">
                     <a href="<?php echo URL ?>gallery/rabindra_jayanti">
                       <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
                         View Images
                       </button>
                     </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -379,162 +378,103 @@ Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT 
             <!-- Event 4 - Grandparents Day -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/grandparents day.jpg"
+                <img src="<?php echo URL ?>assets/img/events-images/img4.jpg"
                   alt="Grandparents Day"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">Grandparents Day</h3>
-                  <p class="text-gray-600">Special day honoring our students' grandparents with activities</p>
-                  <div class="mt-4">
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Independence Day Celebration</h3>
+                  <p class="text-gray-600">Independence Day is celebrated with patriotic programs, speeches, and flag hoisting to honor freedom fighters and inspire students with values of unity, courage, and responsibility.</p>
+                  <!-- <div class="mt-4">
                     <a href="<?php echo URL ?>gallery/grandparents">
                       <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
                         View Images
                       </button>
                     </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
 
-            <!-- Event 5 - Rathyatra -->
+            <!-- Event 5 - Janmashtami Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/rath.jpg"
+                <img src="<?php echo URL ?>assets/img/events-images/img5.jpg"
                   alt="Rathyatra"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">Rathyatra</h3>
-                  <p class="text-gray-600">Traditional chariot festival celebrated with devotion and joy</p>
-                  <div class="mt-4">
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Janmashtami Celebration</h3>
+                  <p class="text-gray-600">Janmashtami marks the birth of Lord Krishna and is celebrated with devotional activities, cultural performances, and moral teachings highlighting truth, kindness, and righteousness.</p>
+                  <!-- <div class="mt-4">
                     <a href="<?php echo URL ?>gallery/rathyatra">
                       <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
                         View Images
                       </button>
                     </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
 
-            <!-- Event 6 - Night Stay -->
+            <!-- Event 6 - Bengali New Year (Poila Boishakh) Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/night stay.jpg"
+                <img src="<?php echo URL ?>assets/img/events-images/img6.jpg"
                   alt="Night Stay"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">Night Stay</h3>
-                  <p class="text-gray-600">Special overnight program for students with fun activities</p>
-                  <div class="mt-4">
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Bengali New Year (Poila Boishakh) Celebration</h3>
+                  <p class="text-gray-600">Bengali New Year is celebrated with cultural programs, traditional music, and greetings, inspiring students to respect heritage, culture, and new beginnings with positivity.</p>
+                  <!-- <div class="mt-4">
                     <a href="<?php echo URL ?>gallery/night_stay">
                       <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
                         View Images
                       </button>
                     </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
 
-            <!-- Event 7 - WOW Day -->
+            <!-- Event 7 -Rabindra Jayanti Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/wow.jpg"
+                <img src="<?php echo URL ?>assets/img/events-images/img7.jpg"
                   alt="WOW Day"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">WOW Day</h3>
-                  <p class="text-gray-600">Week of Wonder - special theme-based learning activities</p>
-                  <div class="mt-4">
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Rabindra Jayanti Celebration</h3>
+                  <p class="text-gray-600">Rabindra Jayanti honors the birth anniversary of Rabindranath Tagore through songs, poems, and performances, nurturing creativity, literature, and cultural values among students.</p>
+                  <!-- <div class="mt-4">
                     <a href="<?php echo URL ?>gallery/wow">
                       <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
                         View Images
                       </button>
                     </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
 
-            <!-- Event 8 - Christmas Celebration -->
+            <!-- Event 8 - Teachers’ Day Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/christmas.jpg"
+                <img src="<?php echo URL ?>assets/img/events-images/img8.jpg"
                   alt="Christmas Celebration"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">Christmas Celebration</h3>
-                  <p class="text-gray-600">Festive celebration with carols, plays, and holiday cheer</p>
-                  <div class="mt-4">
+                  <h3 class="text-xl font-bold text-gray-800 mb-2">Teachers’ Day Celebration</h3>
+                  <p class="text-gray-600">Teachers’ Day is celebrated to express gratitude and respect for teachers, acknowledging their dedication, guidance, and invaluable role in shaping students’ future.</p>
+                  <!-- <div class="mt-4">
                     <a href="<?php echo URL ?>gallery/christmas">
                       <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
                         View Images
                       </button>
                     </a>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
 
-            <!-- Event 9 - Space on Wheels -->
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/space on wheel.jpg"
-                  alt="Space on Wheels"
-                  class="w-full h-48 object-cover">
-                <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">Space on Wheels</h3>
-                  <p class="text-gray-600">Mobile planetarium bringing astronomy education to our school</p>
-                  <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/space_on_wheel">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Event 10 - School Picnic -->
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/school picnic.jpg"
-                  alt="School Picnic"
-                  class="w-full h-48 object-cover">
-                <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">School Picnic</h3>
-                  <p class="text-gray-600">Annual outdoor excursion for fun and bonding</p>
-                  <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/picnic">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Event 11 - Sea Model Exhibition -->
-            <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
-                <img src="<?php echo URL ?>assets/img/donbosco-events/sea model.jpg"
-                  alt="Sea Model Exhibition"
-                  class="w-full h-48 object-cover">
-                <div class="p-6">
-                  <h3 class="text-xl font-bold text-gray-800 mb-2">Sea Model Exhibition</h3>
-                  <p class="text-gray-600">Student-created marine life models and presentations</p>
-                  <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/sea_model">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
 
@@ -659,7 +599,7 @@ Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT 
       </div>
     </div>
   </section>
-
+<!-- 
   <section class="w-full h-auto lg:h-[400px] flex flex-col md:flex-row bg-blue-400">
     <div class="p-6 w-full md:w-1/2 h-full flex flex-col ">
       <h1 class="text-2xl font-semibold ">Overview</h1>
@@ -684,6 +624,6 @@ Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT 
       </iframe>
 
     </div>
-  </section>
+  </section> -->
 
 </main>
