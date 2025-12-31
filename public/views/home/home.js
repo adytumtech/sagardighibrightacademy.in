@@ -51,35 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
     start();
   })();
 
-  /* =====================================================
-     ENQUIRY MODAL (OPEN / CLOSE)
-  ===================================================== */
-  (() => {
-    const openBtn = document.getElementById("enquiryModalButton");
-    const modal = document.getElementById("enquiryModalGlobal");
-    const closeBtn = document.getElementById("closeModalButton");
-
-    if (!openBtn || !modal || !closeBtn) return;
-
-    function open() {
-      modal.classList.remove("hidden");
-      modal.classList.add("flex");
-      document.body.style.overflow = "hidden";
-    }
-
-    function close() {
-      modal.classList.add("hidden");
-      modal.classList.remove("flex");
-      document.body.style.overflow = "";
-    }
-
-    openBtn.addEventListener("click", open);
-    closeBtn.addEventListener("click", close);
-    modal.addEventListener("click", e => e.target === modal && close());
-    document.addEventListener("keydown", e => {
-      if (e.key === "Escape" && !modal.classList.contains("hidden")) close();
-    });
-  })();
+ 
 
   /* =====================================================
      EVENT SLIDER
@@ -113,36 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateVisible();
   })();
 
-  /* =====================================================
-     GALLERY MODAL
-  ===================================================== */
-  (() => {
-    const images = document.querySelectorAll(".gallery-image");
-    const modal = document.getElementById("imageModal");
-    const modalImage = document.getElementById("modalImage");
-    if (!images.length || !modal || !modalImage) return;
-
-    let current = 0;
-
-    images.forEach((img, i) => {
-      img.addEventListener("click", () => {
-        current = i;
-        modalImage.src = img.src;
-        modal.classList.remove("hidden");
-        modal.classList.add("flex");
-      });
-    });
-
-    window.closeModal = () => modal.classList.add("hidden");
-    window.prevImage = () => {
-      current = (current - 1 + images.length) % images.length;
-      modalImage.src = images[current].src;
-    };
-    window.nextImage = () => {
-      current = (current + 1) % images.length;
-      modalImage.src = images[current].src;
-    };
-  })();
 
   /* =====================================================
      FETCH NOTICES + MARQUEE SCROLL

@@ -21,7 +21,8 @@
 
   <div class="flex items-center gap-4">
     <!-- Facebook -->
-    <a href="#" target="_blank" aria-label="Facebook"
+    <a href="https://www.facebook.com/share/14Rdn78LdEq/
+" target="_blank" aria-label="Facebook"
        class="text-blue-600 transition">
       <i class="fa-brands fa-facebook-f text-xl"></i>
     </a>

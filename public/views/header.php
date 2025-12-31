@@ -119,7 +119,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Mu
       <!-- Right: Social Icons -->
       <ul class="flex items-center gap-3 md:gap-4 text-base">
         <li>
-          <a href="#" aria-label="Facebook" class="hover:text-blue-200 transition-colors">
+          <a href="https://www.facebook.com/share/14Rdn78LdEq/" aria-label="Facebook" class="hover:text-blue-200 transition-colors">
             <i class="fa-brands fa-facebook-f"></i>
           </a>
         </li>
