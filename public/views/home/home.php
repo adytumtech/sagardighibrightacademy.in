@@ -164,14 +164,11 @@
           <h2 class="text-blue-900 text-lg md:text-2xl font-bold mb-2">ABOUT US</h2>
 
           <p class="text-sm md:text-md lg:text-lg text-justify text-gray-600">
-SAGARDIGHI BRIGHT ACADEMY, established in 2007, is a dedicated educational institution committed to providing quality education in a nurturing and inclusive environment. Located in the rural region of Sagardighi, Murshidabad, the school focuses on building strong academic foundations while promoting discipline, responsibility, and moral values among students.          </p>
-
+SAGARDIGHI BRIGHT ACADEMY, established in 2007, is a dedicated educational institution committed to providing quality education in a nurturing and inclusive environment. Located in the rural region of Sagardighi, Murshidabad, the school focuses on building strong academic foundations while promoting discipline, responsibility, and moral values among student
           <p class="text-sm md:text-md lg:text-lg text-justify text-gray-600 mt-4">
-The academy offers education from pre-primary to secondary level with Bengali as the medium of instruction. With committed teachers, well-maintained classrooms, and essential learning facilities, the school encourages curiosity, creativity, and continuous growth. Equal emphasis is given to academic learning and character development to help students gain confidence and clarity in their goals.          </p>
-
+The academy offers education from pre-primary to secondary level with Bengali as the medium of instruction and is affiliated to the West Bengal Board of Secondary Education, Calcutta, for secondary education, and the West Bengal Council of Higher Secondary Education, Calcutta, for higher secondary education. With committed teachers, well-maintained classrooms, and essential learning facilities, the school encourages curiosity, creativity, and continuous growth. Equal emphasis is given to academic learning and character development to help students gain confidence and clarity in their goals.
           <p class="text-sm md:text-md lg:text-lg text-justify text-gray-600 mt-4">
-Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT ACADEMY strives to nurture responsible, knowledgeable, and compassionate individuals. The institution remains devoted to empowering students with values, skills, and education that prepare them to contribute positively to society.          </p>
-        </div>
+Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT ACADEMY strives to nurture responsible, knowledgeable, and compassionate individuals. The institution remains devoted to empowering students with values, skills, and education that prepare them to contribute positively to society.        </div>
 
       </div>
       <div class="w-full h-[70vh] md:h-full md:w-1/3 bg-blue-200 p-4 shadow">

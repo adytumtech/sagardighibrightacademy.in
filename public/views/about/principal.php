@@ -9,41 +9,63 @@
     </div>
   </div>
 </section>
+<section class="max-w-6xl mx-auto px-5 py-16 bg-white">
+  <div class="bg-gray-50 rounded-2xl shadow-md p-8 md:p-12">
 
-<section class="max-w-5xl mx-auto p-6 mt-8 mb-12 bg-white rounded-lg shadow-sm">
+    <!-- Header -->
+    <div class="text-center mb-10">
+      <h2 class="text-3xl md:text-4xl font-bold text-blue-900 tracking-wide">
+        A Message from the Principal
+      </h2>
+      <div class="w-20 h-1 bg-yellow-400 mx-auto mt-4"></div>
+    </div>
 
-  <!-- Header -->
-  <div class="text-center mb-8">
-    <h2 class="inline-block text-blue-800  text-xl md:text-2xl px-6 py-2 font-semibold rounded-md shadow-sm">
-A Message From principal    </h2>
+    <!-- Content -->
+    <div class="grid md:grid-cols-5 gap-10 items-start">
+
+      <!-- Text -->
+      <div class="md:col-span-3 text-gray-700 leading-relaxed space-y-6 text-justify text-base md:text-lg">
+        <p class="font-medium text-gray-800">
+          Welcome to <strong>SAGARDIGHI BRIGHT ACADEMY</strong>.
+        </p>
+
+        <p>
+          Education is not only about academic achievement but also about shaping
+          character, discipline, and values. At Sagardighi Bright Academy, we believe
+          that every child possesses unique potential, and our responsibility as
+          educators is to nurture that potential with care, patience, and dedication.
+        </p>
+
+        <p>
+          Since our establishment in 2007, the school has remained committed to
+          providing quality education in a safe, disciplined, and supportive learning
+          environment. Along with strong academic foundations, we emphasize moral
+          values, responsibility, and self-confidence to ensure the holistic
+          development of every student.
+        </p>
+
+        <p>
+          With the combined efforts of parents, teachers, and the community, I am
+          confident that our students will grow into responsible, confident, and
+          capable citizens. Together, let us continue striving for excellence,
+          integrity, and a brighter future for our children.
+        </p>
+      </div>
+
+      <!-- Signature Card -->
+      <div class="md:col-span-2 bg-white rounded-xl shadow-sm border-l-4 border-blue-800 p-6">
+        <p class="text-gray-700 mb-6">
+          “Education is the foundation upon which we build character, confidence,
+          and lifelong values.”
+        </p>
+
+        <div class="space-y-1">
+          <p class="text-gray-800 font-medium">Warm regards,</p>
+          <p class="text-lg font-bold text-gray-900">Principal</p>
+          <p class="text-gray-700">Sagardighi Bright Academy</p>
+        </div>
+      </div>
+
+    </div>
   </div>
-
-  <!-- Content -->
-  <div class="text-gray-700 leading-relaxed space-y-6 text-justify">
-
-    <p class="text-sm md:text-lg font-medium">
-      Welcome to <strong>SAGARDIGHI BRIGHT ACADEMY</strong>.
-    </p>
-
-    <p class="text-base md:text-lg">
-      Education is not only about academic achievement but also about shaping character, discipline, and values. At Sagardighi Bright Academy, we believe that every child has unique potential, and our role as educators is to nurture that potential with care, patience, and dedication.
-    </p>
-
-    <p class="text-base md:text-lg">
-      Since its establishment in 2007, our school has been committed to providing quality education in a safe and supportive environment. We focus on building strong academic foundations while instilling moral values, responsibility, and self-confidence in our students. Our dedicated teachers work tirelessly to guide students towards holistic development through disciplined learning and positive encouragement.
-    </p>
-
-    <p class="text-base md:text-lg">
-      I firmly believe that with the combined support of parents, teachers, and the community, our students can achieve excellence and become responsible citizens of society. Together, let us continue to strive for growth, integrity, and a brighter future for our children.
-    </p>
-
-  </div>
-
-  <!-- Signature -->
-  <div class="mt-10 text-right space-y-1">
-    <p class="text-gray-800 font-medium">Warm regards,</p>
-    <p class="text-lg font-bold text-gray-900">Principal</p>
-    <p class="text-gray-700">Sagardighi Bright Academy</p>
-  </div>
-
 </section>

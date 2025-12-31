@@ -189,6 +189,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Mu
             <ul class="sub-items hidden lg:group-hover:block lg:absolute lg:left-0 lg:top-full bg-blue-700 text-white  lg:shadow-lg lg:z-50 lg:min-w-[250px] lg:max-w-[250px] whitespace-nowrap text-start">
               <li class="border-b"><a href="<?php echo URL ?>about/about_school" class="block px-4 py-2 hover:bg-blue-800 ">About School</a></li>
               <li class="border-b"><a href="<?php echo URL ?>about/principal" class="block px-4 py-2 hover:bg-blue-800 ">Principal message</a></li>
+                <li class="border-b"><a href="<?php echo URL ?>about/infrastructure_and_facilities" class="block px-4 py-2 hover:bg-blue-800 ">Infrastructure & facilities</a></li>
             </ul>
           </li>
 
