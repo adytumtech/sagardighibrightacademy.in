@@ -107,7 +107,7 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Mu
       <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-6">
         <div class="flex items-center gap-1 ">
           <i class="fa-solid fa-phone text-sm"></i>
-          <span> 9733656523
+          <span>+91-9733656523
     </span>
         </div>
         <span>|</span>
