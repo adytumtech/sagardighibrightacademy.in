@@ -239,7 +239,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-12">
         <h2 class="text-3xl md:text-4xl font-bold text-blue-800 mb-3">School Events</h2>
-        <p class="text-lg text-gray-600">Celebrating our vibrant school community through memorable events</p>
+        <p class="text-lg text-gray-600">“Celebrating our vibrant school community through memorable moments.”</p>
       </div>
 
       <div class="relative">
@@ -250,7 +250,7 @@
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img1.jpg"
-                  alt="Science Festival"
+                  alt="Annual Sports"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Annual Sports</h3>
@@ -264,7 +264,7 @@
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0 ">
               <div class="bg-white  border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img2.jpg"
-                  alt="Sports Day"
+                  alt="World Environment Day "
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">World Environment Day </h3>
@@ -278,7 +278,7 @@
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img3.jpg"
-                  alt="Rabindra Jayanti"
+                  alt="Holi Celebratio"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Holi Celebration</h3>
@@ -292,7 +292,7 @@
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img4.jpg"
-                  alt="Grandparents Day"
+                  alt="Independence Day Celebration"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Independence Day Celebration</h3>
@@ -306,7 +306,7 @@
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img5.jpg"
-                  alt="Rathyatra"
+                  alt="Janmashtami Celebration"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Janmashtami Celebration</h3>
@@ -320,7 +320,7 @@
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img6.jpg"
-                  alt="Night Stay"
+                  alt="Poila Boishakh"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Bengali New Year (Poila Boishakh) Celebration</h3>
@@ -334,7 +334,7 @@
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img7.jpg"
-                  alt="WOW Day"
+                  alt="Rabindra Jayanti Celebration"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Rabindra Jayanti Celebration</h3>
@@ -348,7 +348,7 @@
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
               <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img8.jpg"
-                  alt="Christmas Celebration"
+                  alt="Teachers’ Day Celebration"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Teachers’ Day Celebration</h3>
@@ -382,7 +382,7 @@
     <div class="text-center mb-12">
       <h2 class="text-2xl md:text-4xl font-bold text-blue-800">What Parents Say About Us</h2>
 
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto">Hear from our parents about their experiences at Sagardight Bright Academy School</p>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">Hear heartfelt experiences shared by parents of Sagardighi Bright Academy.</p>
     </div>
 
     <div class="relative">

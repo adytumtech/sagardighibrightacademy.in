@@ -1371,10 +1371,6 @@ video {
   background-color: rgb(250 204 21 / var(--tw-bg-opacity));
 }
 
-.bg-blue-200\/10{
-  background-color: rgb(191 219 254 / 0.1);
-}
-
 .bg-opacity-75{
   --tw-bg-opacity: 0.75;
 }
@@ -1390,6 +1386,12 @@ video {
 .from-black\/60{
   --tw-gradient-from: rgb(0 0 0 / 0.6) var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-blue-900{
+  --tw-gradient-from: #1e3a8a var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(30 58 138 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -1411,12 +1413,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-blue-900{
-  --tw-gradient-from: #1e3a8a var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(30 58 138 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
 .via-black\/30{
   --tw-gradient-to: rgb(0 0 0 / 0)  var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 0.3) var(--tw-gradient-via-position), var(--tw-gradient-to);
@@ -1434,20 +1430,12 @@ video {
   --tw-gradient-to: #ef4444 var(--tw-gradient-to-position);
 }
 
-.to-transparent{
-  --tw-gradient-to: transparent var(--tw-gradient-to-position);
-}
-
 .to-red-700{
   --tw-gradient-to: #b91c1c var(--tw-gradient-to-position);
 }
 
-.to-blue-700{
-  --tw-gradient-to: #1d4ed8 var(--tw-gradient-to-position);
-}
-
-.to-blue-800{
-  --tw-gradient-to: #1e40af var(--tw-gradient-to-position);
+.to-transparent{
+  --tw-gradient-to: transparent var(--tw-gradient-to-position);
 }
 
 .bg-cover{
@@ -1519,11 +1507,6 @@ video {
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.py-1\.5{
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
 }
 
 .py-12{
@@ -2216,14 +2199,6 @@ body {
     align-items: center;
   }
 
-  .md\:justify-start{
-    justify-content: flex-start;
-  }
-
-  .md\:justify-center{
-    justify-content: center;
-  }
-
   .md\:gap-10{
     gap: 2.5rem;
   }
@@ -2240,16 +2215,8 @@ body {
     gap: 1.25rem;
   }
 
-  .md\:gap-6{
-    gap: 1.5rem;
-  }
-
   .md\:gap-8{
     gap: 2rem;
-  }
-
-  .md\:gap-2{
-    gap: 0.5rem;
   }
 
   .md\:p-12{
