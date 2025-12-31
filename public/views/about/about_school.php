@@ -12,26 +12,82 @@
 
 <!-- Overview Section -->
 <!-- About Us / Overview -->
-<section class="w-full bg-blue-50 py-16">
-  <div class="max-w-6xl mx-auto px-5 text-center">
-    <h2 class="text-3xl md:text-4xl font-bold text-blue-900 tracking-wide mb-6">
-      About Us
-    </h2>
+<section class="w-full bg-gray-50 py-16">
+  <div class="max-w-6xl mx-auto px-5">
 
-    <div class="w-20 h-1 bg-yellow-400 mx-auto mb-8"></div>
+    <!-- Heading -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold text-blue-900 tracking-wide mb-4">
+        About Sagardighi Bright Academy
+      </h2>
+      <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
+    </div>
 
-    <p class="text-gray-700 max-w-4xl mx-auto leading-relaxed text-lg">
-      <strong>SAGARDIGHI BRIGHT ACADEMY</strong>, established in <strong>2007</strong>, is a
-      private unaided co-educational institution committed to delivering quality education
-      in the rural region of Murshidabad, West Bengal. The school focuses on academic
-      excellence, discipline, and strong moral values to nurture confident and responsible
-      individuals prepared for the future.
-    </p>
+    <!-- Content -->
+    <div class="space-y-6 text-gray-700 leading-relaxed max-w-5xl mx-auto text-base md:text-lg">
+
+      <p>
+        <strong>SAGARDIGHI BRIGHT ACADEMY</strong>, established in <strong>2007</strong>, is a
+        private unaided co-educational institution dedicated to providing quality education
+        in a nurturing, disciplined, and inclusive environment. Situated in the rural region
+        of <strong>Santoshpur, Sagardighi Block, Murshidabad</strong>, the school has earned
+        the trust of the local community through its consistent academic standards and
+        value-based education.
+      </p>
+
+      <p>
+        The academy offers education from <strong>pre-primary to secondary level (Grades I–X)</strong>,
+        following a structured academic system designed to build strong foundational knowledge.
+        With <strong>Bengali as the medium of instruction</strong>, students are encouraged to
+        develop clarity of concepts while growing academically and socially in a comfortable
+        learning environment.
+      </p>
+
+      <p>
+        SAGARDIGHI BRIGHT ACADEMY follows a <strong>co-educational system</strong> that promotes
+        equal opportunities for all students. The school emphasizes discipline, responsibility,
+        and moral values alongside academic learning to ensure the holistic development of
+        every child. The academic session begins in <strong>April</strong> and is conducted
+        according to a well-organized and disciplined academic calendar.
+      </p>
+
+      <p>
+        The institution operates from a rented school building and is easily accessible
+        through all-weather roads, ensuring convenience and safety for students and parents.
+        Supported by dedicated teachers, well-maintained classrooms, and essential learning
+        facilities, the school fosters curiosity, creativity, and continuous improvement
+        among learners.
+      </p>
+
+      <p>
+        The school is officially affiliated with the following educational boards:
+      </p>
+
+      <ul class="list-disc pl-6 space-y-2">
+        <li>
+          <strong>West Bengal Board of Secondary Education (WBBSE)</strong> –
+          Secondary Level
+        </li>
+        <li>
+          <strong>West Bengal Council of Higher Secondary Education (WBCHSE)</strong> –
+          Higher Secondary Level
+        </li>
+      </ul>
+
+      <p>
+        Guided by the belief that education shapes a brighter future, <strong>SAGARDIGHI BRIGHT ACADEMY</strong>
+        remains committed to nurturing responsible, confident, and knowledgeable individuals.
+        The institution strives to empower students with academic excellence, strong values,
+        and life skills that prepare them to contribute positively to society.
+      </p>
+
+    </div>
   </div>
 </section>
 
+
 <!-- Vision & Mission -->
-<section class="w-full bg-white py-16">
+<section class="w-full bg-blue-100 py-16">
   <div class="max-w-6xl mx-auto px-5">
     <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-12 text-center tracking-wide">
       Vision & Mission
@@ -68,7 +124,7 @@
 </section>
 
 
-<!-- Our Commitment -->
+
 <!-- Our Commitment -->
 <section class="bg-gray-50 py-16">
   <div class="max-w-6xl mx-auto px-5 text-center">
@@ -88,9 +144,9 @@
 </section>
 
 
+
 <!-- School Information -->
-<!-- School Information -->
-<section class="w-full bg-white py-16">
+<section class="w-full bg-gray-50 py-16">
   <div class="max-w-6xl mx-auto px-5">
     <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-12 text-center tracking-wide">
       School Information
