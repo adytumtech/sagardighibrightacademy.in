@@ -44,7 +44,7 @@ class home extends Controller
 
     public function notice_details()
     {
-        $this->view->pageTitle = "Notice Details | Don Bosco Malda";
+        $this->view->pageTitle = "Notice Details | Sagardighi Bright Academy";
         $this->view->css = array("views/home/home.css");
         $this->view->js = array("views/home/home.js");
         $this->view->render('home', 'notice_details');

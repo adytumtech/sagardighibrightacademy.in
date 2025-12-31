@@ -496,7 +496,7 @@ Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT 
     <div class="text-center mb-12">
       <h2 class="text-2xl md:text-4xl font-bold text-blue-800">What Parents Say About Us</h2>
 
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto">Hear from our parents about their experiences at Don Bosco School, Malda</p>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">Hear from our parents about their experiences at Sagardight Bright Academy School, Malda</p>
     </div>
 
     <div class="relative">
