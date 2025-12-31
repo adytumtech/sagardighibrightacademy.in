@@ -73,10 +73,8 @@ if (!isset($this->pageTitle)) $this->pageTitle = 'Sagardighi Bright Academy | Mu
 
       },
       "sameAs": [
-        "https://www.facebook.com/sagardighibrightacademy",
-        "https://www.instagram.com/sagardighibrightacademy",
-        "https://www.youtube.com/@sagardighibrightacademy"
-      ]
+        "https://www.facebook.com/share/14Rdn78LdEq/",
+       
     }
   </script>
   <?php

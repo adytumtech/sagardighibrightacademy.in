@@ -10,7 +10,7 @@ class contact extends Controller
 
 	public function index()
 	{
-		$this->view->pageTitle = "Contact | SAGARDIGHI BRIGHT ACADEMY";
+		$this->view->pageTitle = "Contact | Sagardighi Bright Academy";
 		$this->view->render("contact", "contact");
 	}
 

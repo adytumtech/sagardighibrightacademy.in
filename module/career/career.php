@@ -16,18 +16,5 @@ class career extends Controller
 	}
 	
 
-	 public function getNotice()
-    {
-        header('Content-Type: application/json');
 
-        if ($_SERVER['REQUEST_METHOD'] !== 'GET') {
-            echo json_encode([
-                'success' => false,
-                'message' => 'Invalid request'
-            ]);
-            return;
-        }
-
-        echo json_encode($this->model->getAllNotice());
-    }
 }

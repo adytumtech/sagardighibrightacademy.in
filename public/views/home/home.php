@@ -7,7 +7,7 @@
     <button id="closeBannerModal" class="absolute top-0 right-0 text-white bg-red-600 rounded-full  w-8 md:w-16 h-8 md:h-16 flex items-center justify-center z-50 hover:bg-red-700">
       <span class="text-xl lg:text-4xl">&times;</span>
     </button>
-    <img src="<?php echo URL ?>assets/img/donbosco-poster.jpeg" class="w-full cursor-pointer h-auto max-h-[90vh] object-contain rounded-lg" alt="Don Bosco Banner">
+    <img src="<?php echo URL ?>assets/img/sagardighi-poster.jpeg" class="w-full cursor-pointer h-auto max-h-[90vh] object-contain rounded-lg" alt="Don Bosco Banner">
   </div>
 
 </div> -->
@@ -68,49 +68,6 @@
     <div class="flex flex-wrap items-center justify-evenly w-full text-white min-h-[80px] md:min-h-[120px] px-4 py-4 bg-white/10 backdrop-blur-md border border-white/30 shadow-xl rounded-xl mx-auto max-w-7xl">
 
 
-      <!-- <ul class="flex flex-wrap items-center justify-evenly w-full">
-
-       
-        <li class="flex items-center gap-3 px-4 py-2 hover:text-blue-300 transition">
-          <a href="#" class="flex items-center gap-3">
-            <img src="<?php echo URL ?>assets/img/admisssion.png" alt="Admission Icon" class="w-8 h-8 md:w-12 md:h-12">
-            <h3 class="text-base md:text-xl font-semibold">Admission</h3>
-          </a>
-        </li>
-
-        <span class="hidden md:block w-0.5 h-[40px] md:h-[50px] bg-white/40"></span>
-
-
-        <li class="flex items-center gap-3 px-4 py-2 hover:text-blue-300 transition">
-          <a href="<?php echo URL ?>news_events/events" class="flex items-center gap-3">
-            <img src="<?php echo URL ?>assets/img/events.png" alt="Events Icon" class="w-8 h-8 md:w-12 md:h-12">
-            <h3 class="text-base md:text-xl font-semibold">Events</h3>
-          </a>
-        </li>
-
-
-        <span class="hidden md:block w-0.5 h-[40px] md:h-[50px] bg-white/40"></span>
-
-
-        <li class="flex items-center gap-3 px-4 py-2 hover:text-blue-300 transition">
-          <a href="<?php echo URL ?>gallery/gallery" class="flex items-center gap-3">
-            <img src="<?php echo URL ?>assets/img/photo-gallery.png" alt="Gallery Icon" class="w-8 h-8 md:w-12 md:h-12">
-            <h3 class="text-base md:text-xl font-semibold">Gallery</h3>
-          </a>
-        </li>
-
-        <span class="hidden md:block w-0.5 h-[40px] md:h-[50px] bg-white/40"></span>
-
-
-        <li class="flex items-center gap-3 px-4 py-2 hover:text-blue-300 transition">
-          <a href="academic/activities" class="flex items-end gap-3">
-            <img src="<?php echo URL ?>assets\img\school_activities.png" alt="Activities Icon" class="w-8 h-8 md:w-12 md:h-12">
-            <h3 class="text-base md:text-xl font-semibold self-end">Activities</h3>
-          </a>
-        </li>
-
-      </ul> -->
-      <!-- Admission Enquiry Form -->
       <section class="px-2 md:px-10 lg:px-20 py-4 md:py-6 w-full">
         <div class="w-full">
           <div class="bg-white rounded-lg shadow-lg p-4 md:p-5 border border-blue-100">
@@ -164,11 +121,11 @@
           <h2 class="text-blue-900 text-lg md:text-2xl font-bold mb-2">ABOUT US</h2>
 
           <p class="text-sm md:text-md lg:text-lg text-justify text-gray-600">
-SAGARDIGHI BRIGHT ACADEMY, established in 2007, is a dedicated educational institution committed to providing quality education in a nurturing and inclusive environment. Located in the rural region of Sagardighi, Murshidabad, the school focuses on building strong academic foundations while promoting discipline, responsibility, and moral values among student
+                      SAGARDIGHI BRIGHT ACADEMY, established in 2007, is a dedicated educational institution committed to providing quality education in a nurturing and inclusive environment. Located in the rural region of Sagardighi, Murshidabad, the school focuses on building strong academic foundations while promoting discipline, responsibility, and moral values among student
           <p class="text-sm md:text-md lg:text-lg text-justify text-gray-600 mt-4">
-The academy offers education from pre-primary to secondary level with Bengali as the medium of instruction and is affiliated to the West Bengal Board of Secondary Education, Calcutta, for secondary education, and the West Bengal Council of Higher Secondary Education, Calcutta, for higher secondary education. With committed teachers, well-maintained classrooms, and essential learning facilities, the school encourages curiosity, creativity, and continuous growth. Equal emphasis is given to academic learning and character development to help students gain confidence and clarity in their goals.
+                      The academy offers education from pre-primary to secondary level with Bengali as the medium of instruction and is affiliated to the West Bengal Board of Secondary Education, Calcutta, for secondary education, and the West Bengal Council of Higher Secondary Education, Calcutta, for higher secondary education. With committed teachers, well-maintained classrooms, and essential learning facilities, the school encourages curiosity, creativity, and continuous growth. Equal emphasis is given to academic learning and character development to help students gain confidence and clarity in their goals.
           <p class="text-sm md:text-md lg:text-lg text-justify text-gray-600 mt-4">
-Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT ACADEMY strives to nurture responsible, knowledgeable, and compassionate individuals. The institution remains devoted to empowering students with values, skills, and education that prepare them to contribute positively to society.        </div>
+                      Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT ACADEMY strives to nurture responsible, knowledgeable, and compassionate individuals. The institution remains devoted to empowering students with values, skills, and education that prepare them to contribute positively to society.        </div>
 
       </div>
       <div class="w-full h-[70vh] md:h-full md:w-1/3 bg-blue-200 p-4 shadow">
@@ -274,30 +231,7 @@ Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT 
     </div>
   </section>
 
-  <!-- images -->
-  <!-- <section class="">
-    <div class="max-w-7xl mx-auto my-8">
-      <h1 class="text-3xl md:text-4xl font-bold text-blue-800 mb-8 text-center">Our Images</h1>
 
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4 px-2 md:px-0" id="gallery">
-        <div><img src="<?php echo URL ?>assets/img/db-front-1.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
-        <div><img src="<?php echo URL ?>assets/img/db-front-6.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
-        <div><img src="<?php echo URL ?>assets/img/db-front-3.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
-        <div><img src="<?php echo URL ?>assets/img/db-front-4.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
-        <div><img src="<?php echo URL ?>assets/img/db-front-7.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
-        <div><img src="<?php echo URL ?>assets/img/db-front-8.jpg" alt="" class="gallery-image cursor-pointer shadow border-2 border-gray-800"></div>
-        
-      </div>
-    </div>
-  </section> -->
-
-  <!-- Modal -->
-  <!-- <div id="imageModal" class="fixed inset-0 bg-black bg-opacity-80 z-50 hidden items-center justify-center">
-    <button onclick="closeModal()" class="absolute top-4 right-4 text-white text-3xl font-bold">&times;</button>
-    <button onclick="prevImage()" class="absolute left-4 text-white text-4xl font-bold">&#10094;</button>
-    <img id="modalImage" src="" class="max-w-[90%] max-h-[90%] border-4 border-white rounded shadow-xl transition-all duration-300" />
-    <button onclick="nextImage()" class="absolute right-4 text-white text-4xl font-bold">&#10095;</button>
-  </div> -->
 
 
   <!-- Events Section -->
@@ -314,160 +248,112 @@ Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT 
           <div id="event-carousel-track" class="flex transition-transform duration-500 ease-in-out">
             <!-- Event 1 - Annual Sports -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
+              <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img1.jpg"
                   alt="Science Festival"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Annual Sports</h3>
                   <p class="text-gray-600">Annual Sports Day promotes physical fitness, teamwork, and sportsmanship through various competitive events, encouraging students to develop discipline, confidence, and a healthy lifestyle.</p>
-                  <!-- <div class="mt-4">
-                    <a href="<?php echo URL ?>assets/img/events-images/annual-sports.jpg">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div> -->
+                 
                 </div>
               </div>
             </div>
 
             <!-- Event 2 - World Environment Day Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0 ">
-              <div class="bg-white  border-2 border-blue-500 shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
+              <div class="bg-white  border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img2.jpg"
                   alt="Sports Day"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">World Environment Day </h3>
                   <p class="text-gray-600">World Environment Day raises awareness about environmental protection, encouraging students to adopt eco-friendly habits and understand the importance of preserving nature for future generations.</p>
-                  <!-- <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/sport_activities">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div> -->
+                 
                 </div>
               </div>
             </div>
 
             <!-- Event 3 - Holi Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
+              <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img3.jpg"
                   alt="Rabindra Jayanti"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Holi Celebration</h3>
                   <p class="text-gray-600">Holi is celebrated with colors, joy, and unity, spreading messages of friendship, harmony, and happiness among students and teachers in a vibrant school atmosphere.</p>
-                  <!-- <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/rabindra_jayanti">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div> -->
+                
                 </div>
               </div>
             </div>
 
             <!-- Event 4 - Grandparents Day -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
+              <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img4.jpg"
                   alt="Grandparents Day"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Independence Day Celebration</h3>
                   <p class="text-gray-600">Independence Day is celebrated with patriotic programs, speeches, and flag hoisting to honor freedom fighters and inspire students with values of unity, courage, and responsibility.</p>
-                  <!-- <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/grandparents">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div> -->
+               
                 </div>
               </div>
             </div>
 
             <!-- Event 5 - Janmashtami Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
+              <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img5.jpg"
                   alt="Rathyatra"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Janmashtami Celebration</h3>
                   <p class="text-gray-600">Janmashtami marks the birth of Lord Krishna and is celebrated with devotional activities, cultural performances, and moral teachings highlighting truth, kindness, and righteousness.</p>
-                  <!-- <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/rathyatra">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div> -->
+                 
                 </div>
               </div>
             </div>
 
             <!-- Event 6 - Bengali New Year (Poila Boishakh) Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
+              <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img6.jpg"
                   alt="Night Stay"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Bengali New Year (Poila Boishakh) Celebration</h3>
                   <p class="text-gray-600">Bengali New Year is celebrated with cultural programs, traditional music, and greetings, inspiring students to respect heritage, culture, and new beginnings with positivity.</p>
-                  <!-- <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/night_stay">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div> -->
+                  
                 </div>
               </div>
             </div>
 
             <!-- Event 7 -Rabindra Jayanti Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
+              <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img7.jpg"
                   alt="WOW Day"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Rabindra Jayanti Celebration</h3>
                   <p class="text-gray-600">Rabindra Jayanti honors the birth anniversary of Rabindranath Tagore through songs, poems, and performances, nurturing creativity, literature, and cultural values among students.</p>
-                  <!-- <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/wow">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div> -->
+               
                 </div>
               </div>
             </div>
 
             <!-- Event 8 - Teachers’ Day Celebration -->
             <div class="w-full sm:w-1/2 lg:w-1/3 px-4 flex-shrink-0">
-              <div class="bg-white border-2 border-blue-500  shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
+              <div class="bg-white border-2 border-blue-500 rounded-lg shadow-md overflow-hidden hover:shadow-2xl hover:bg-blue-50 transition-shadow duration-300 h-full">
                 <img src="<?php echo URL ?>assets/img/events-images/img8.jpg"
                   alt="Christmas Celebration"
                   class="w-full h-48 object-cover">
                 <div class="p-6">
                   <h3 class="text-xl font-bold text-gray-800 mb-2">Teachers’ Day Celebration</h3>
                   <p class="text-gray-600">Teachers’ Day is celebrated to express gratitude and respect for teachers, acknowledging their dedication, guidance, and invaluable role in shaping students’ future.</p>
-                  <!-- <div class="mt-4">
-                    <a href="<?php echo URL ?>gallery/christmas">
-                      <button class="event-view-btn bg-blue-600 text-white px-4 py-2  hover:bg-blue-700 transform hover:scale-105 transition duration-300 ease-in-out">
-                        View Images
-                      </button>
-                    </a>
-                  </div> -->
+                 
                 </div>
               </div>
             </div>
@@ -496,7 +382,7 @@ Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT 
     <div class="text-center mb-12">
       <h2 class="text-2xl md:text-4xl font-bold text-blue-800">What Parents Say About Us</h2>
 
-      <p class="text-lg text-gray-600 max-w-2xl mx-auto">Hear from our parents about their experiences at Sagardight Bright Academy School, Malda</p>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">Hear from our parents about their experiences at Sagardight Bright Academy School</p>
     </div>
 
     <div class="relative">
@@ -596,31 +482,6 @@ Guided by the belief that education shapes a brighter future, SAGARDIGHI BRIGHT 
       </div>
     </div>
   </section>
-<!-- 
-  <section class="w-full h-auto lg:h-[400px] flex flex-col md:flex-row bg-blue-400">
-    <div class="p-6 w-full md:w-1/2 h-full flex flex-col ">
-      <h1 class="text-2xl font-semibold ">Overview</h1>
-      <p class="text-gray-700 leading-relaxed mb-1 mt-10">
-        Don Bosco School, Malda is a premier educational institution committed to providing quality education rooted in the values of discipline, excellence, and compassion. Founded on the principles of St. John Bosco, our school aims to nurture young minds into responsible citizens and future leaders.
-      </p>
-      <p class="text-gray-700 leading-relaxed">
-        With state-of-the-art facilities, experienced faculty, and a holistic approach to education, we create an environment where students can explore their potential, develop critical thinking skills, and grow into well-rounded individuals.
-      </p>
-    </div>
 
-
-    <div class="w-full md:w-1/2 flex justify-center">
-      <iframe
-        id="overview-video"
-        class="w-full h-full object-cover"
-        src="https://www.youtube.com/embed/OBjhs6SmTts?si=SFeW4ca8RZrW0KVZ&enablejsapi=1"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-      </iframe>
-
-    </div>
-  </section> -->
 
 </main>
