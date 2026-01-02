@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const area = document.getElementById("noticeScrollArea");
     if (!list || !area) return;
 
-    fetch("home/getNotices", { method: "POST" })
+    fetch("home/getNotices", { method: "GET" })
       .then(res => res.json())
       .then(data => {
         list.innerHTML = "";
