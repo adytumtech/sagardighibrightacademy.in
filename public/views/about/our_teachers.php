@@ -1,20 +1,15 @@
 
 <?php /* our_teachers Page - Sagardighi Bright Academy */ ?>
 
-<!-- Hero Section -->
-<section class="relative hero-section h-[300px] bg-dark-9 bg-cover bg-center flex items-center justify-center" style="background-image:url(<?php echo URL ?>assets/img/hero_img.jpg)">
-  <div class="relative container mx-auto px-4  z-20">
-
-    <div class="flex flex-col items-center justify-center text-white text-center">
-      <h1 class="text-2xl md:text-4xl font-bold  bg-red-700 px-5 py-2">Our Teachers</h1>
-    </div>
-  </div>
-</section>
-
 
 <!-- Teachers Section -->
 <section class="py-12 sm:py-16 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+
+  <div class="flex flex-col items-center justify-center py-3 text-white text-center">
+      <h1 class="text-2xl md:text-4xl font-bold  bg-red-700 px-5 py-2">Our Teachers</h1>
+    </div>
 
     <!-- Heading -->
     <div class="text-center mb-10 sm:mb-14 lg:mb-16">
