@@ -86,7 +86,7 @@ teachers.forEach((teacher) => {
       <div class="relative pt-10 flex justify-center">
         
         <!-- Gradient Circle Border -->
-        <div class="w-36 h-36 rounded-full bg-gradient-to-r from-green-800 via-green-700 to-blue-800 p-1
+        <div class="w-36 h-36 rounded-full bg-gradient-to-r from-red-500 via-red-500 to-blue-800 p-1
                     group-hover:scale-105 transition duration-300">
 
           <!-- Actual Image -->
